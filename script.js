@@ -1653,7 +1653,7 @@ function funçaoforça(){
 //Lutar
 
 let lutar = document.getElementById('lutar')
-let l = 2
+let l = 1
 lutar.innerHTML = `${l}`
 
 function funçaolutar(){
@@ -3305,7 +3305,7 @@ function funçaolutar(){
 //Destreza
 
 let destreza = document.getElementById('destreza')
-let d = 3
+let d = 1
 destreza.innerHTML = `${d}`
 
 function funçaodestreza(){
@@ -4957,7 +4957,7 @@ function funçaodestreza(){
 //Parkour
 
 let parkour = document.getElementById('parkour')
-let p = 4
+let p = 1
 parkour.innerHTML = `${p}`
 
 function funçaoparkour(){
@@ -6609,7 +6609,7 @@ function funçaoparkour(){
 //Furtividade
 
 let furtividade = document.getElementById('furtividade')
-let fu = 5
+let fu = 1
 furtividade.innerHTML = `${fu}`
 
 function funçaofurtividade(){

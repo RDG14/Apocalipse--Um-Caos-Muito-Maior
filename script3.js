@@ -1,7 +1,7 @@
 //Luta pela Vida
 
 let lutapv = document.getElementById('lutapv')
-let lpv = 11
+let lpv = 1
 lutapv.innerHTML = `${lpv}`
 
 function funçaolutapv(){
@@ -1653,7 +1653,7 @@ function funçaolutapv(){
 //Inteligência
 
 let inteligencia = document.getElementById('inteligencia')
-let int = 12
+let int = 1
 inteligencia.innerHTML = `${int}`
 
 function funçaointeligencia(){
@@ -3305,7 +3305,7 @@ function funçaointeligencia(){
 //Psicologia
 
 let psicologia = document.getElementById('psicologia')
-let psi = 13
+let psi = 1
 psicologia.innerHTML = `${psi}`
 
 function funçaopsicologia(){
@@ -4957,7 +4957,7 @@ function funçaopsicologia(){
 //Lábia
 
 let labia = document.getElementById('labia')
-let lab = 14
+let lab = 1
 labia.innerHTML = `${lab}`
 
 function funçaolabia(){
@@ -6609,7 +6609,7 @@ function funçaolabia(){
 //Intimidar
 
 let intimidar = document.getElementById('intimidar')
-let i = 15
+let i = 1
 intimidar.innerHTML = `${i}`
 
 function funçaointimidar(){

@@ -52,5 +52,22 @@ td.valor{
     text-align: center;
 }
 
+input{
+    margin-top: 20px;
+    padding: 10px;
+}
 
+/* ITENS */
+
+.item{
+    margin-top: 20px;
+    outline: 2px solid white;
+    height: 70px;
+    width: 70px;
+} 
+
+.itens{
+    display: inline-table;
+    margin: 10px;
+}
 

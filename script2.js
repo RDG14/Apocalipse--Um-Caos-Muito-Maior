@@ -1,7 +1,7 @@
 //Arremessar
 
 let arremessar = document.getElementById('arremessar')
-let a = 6
+let a = 1
 arremessar.innerHTML = `${a}`
 
 function funçaoarremessar(){
@@ -1653,7 +1653,7 @@ function funçaoarremessar(){
 //Encontrar
 
 let encontrar = document.getElementById('encontrar')
-let e = 7
+let e = 1
 encontrar.innerHTML = `${e}`
 
 function funçaoencontrar(){
@@ -3305,7 +3305,7 @@ function funçaoencontrar(){
 //Escutar
 
 let escutar = document.getElementById('escutar')
-let es = 8
+let es = 1
 escutar.innerHTML = `${es}`
 
 function funçaoescutar(){
@@ -4957,7 +4957,7 @@ function funçaoescutar(){
 //Medicina
 
 let medicina = document.getElementById('medicina')
-let m = 9
+let m = 1
 medicina.innerHTML = `${m}`
 
 function funçaomedicina(){
@@ -6609,7 +6609,7 @@ function funçaomedicina(){
 //Primeiros Socorros
 
 let psocorros = document.getElementById('psocorros')
-let ps = 10
+let ps = 1
 psocorros.innerHTML = `${ps}`
 
 function funçaopsocorros(){

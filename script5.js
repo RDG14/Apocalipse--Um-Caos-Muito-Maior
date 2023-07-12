@@ -1652,7 +1652,7 @@ function funçaoproduçaodt(){
 //Química
 
 let quimica = document.getElementById('quimica')
-let q = 2
+let q = 1
 quimica.innerHTML = `${q}`
 
 function funçaoquimica(){
@@ -3303,7 +3303,7 @@ function funçaoquimica(){
 //Sorte
 
 let sorte = document.getElementById('sorte')
-let sor = 3
+let sor = 1
 sorte.innerHTML = `${sor}`
 
 function funçaosorte(){
