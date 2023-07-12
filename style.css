@@ -77,7 +77,7 @@ input{
 
 /* Mapas */
 
-img.mapa{
+.mapa{
     border: 5px solid white;
     height: 400px;
 }
