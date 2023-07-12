@@ -3,6 +3,10 @@ body{
     color: white;
 }
 
+div{
+    display: inline-table;
+}
+
 #imagembeatriz{
     background-color: rgb(60, 3, 94);
     height: 400px;
@@ -70,4 +74,12 @@ input{
     display: inline-table;
     margin: 10px;
 }
+
+/* Mapas */
+
+img.mapa{
+    border: 5px solid white;
+    height: 400px;
+}
+
 
