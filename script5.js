@@ -1,15 +1,15 @@
-//Armas Cortantes
+//Produção de Itens
 
-let armasc = document.getElementById('armasc')
-let ac = 16
-armasc.innerHTML = `${ac}`
+let produçaodt = document.getElementById('produçaodt')
+let pdt = 1
+produçaodt.innerHTML = `${pdt}`
 
-function funçaoarmasc(){
+function funçaoproduçaodt(){
     
 
     let n = Math.floor(Math.random() * 20)
 
-    if(ac == 1){
+    if(pdt == 1){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -91,7 +91,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 2){
+    if(pdt == 2){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -173,7 +173,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 3){
+    if(pdt == 3){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -255,7 +255,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 4){
+    if(pdt == 4){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -336,8 +336,7 @@ function funçaoarmasc(){
             alert('20 = Bom')
         }
     }
-
-    if(ac == 5){
+    if(pdt == 5){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -419,7 +418,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 6){
+    if(pdt == 6){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -501,7 +500,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 7){
+    if(pdt == 7){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -583,7 +582,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 8){
+    if(pdt == 8){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -665,7 +664,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 9){
+    if(pdt == 9){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -747,7 +746,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 10){
+    if(pdt == 10){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -829,7 +828,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 11){
+    if(pdt == 11){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -911,7 +910,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 12){
+    if(pdt == 12){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -993,7 +992,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 13){
+    if(pdt == 13){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1075,7 +1074,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 14){
+    if(pdt == 14){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1157,7 +1156,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 15){
+    if(pdt == 15){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1239,7 +1238,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 16){
+    if(pdt == 16){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1321,7 +1320,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 17){
+    if(pdt == 17){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1403,7 +1402,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 18){
+    if(pdt == 18){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1485,7 +1484,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 19){
+    if(pdt == 19){
         if (n == 0){
             alert('1 = Fracasso')
         }
@@ -1567,7 +1566,7 @@ function funçaoarmasc(){
         }
     }
 
-    if(ac == 20){
+    if(pdt == 20){
         if (n == 0){
             alert('1 = Normal')
         }
@@ -1650,18 +1649,18 @@ function funçaoarmasc(){
     }
 }
 
-//Armas Pesadas
+//Química
 
-let armasp = document.getElementById('armasp')
-let ap = 17
-armasp.innerHTML = `${ap}`
+let quimica = document.getElementById('quimica')
+let q = 2
+quimica.innerHTML = `${q}`
 
-function funçaoarmasp(){
+function funçaoquimica(){
     
 
     let n = Math.floor(Math.random() * 20)
 
-    if(ap == 1){
+    if(q == 1){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1743,7 +1742,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 2){
+    if(q == 2){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1825,7 +1824,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 3){
+    if(q == 3){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1907,7 +1906,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 4){
+    if(q == 4){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -1988,8 +1987,7 @@ function funçaoarmasp(){
             alert('20 = Bom')
         }
     }
-
-    if(ap == 5){
+    if(q == 5){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2071,7 +2069,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 6){
+    if(q == 6){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2153,7 +2151,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 7){
+    if(q == 7){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2235,7 +2233,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 8){
+    if(q == 8){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2317,7 +2315,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 9){
+    if(q == 9){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2399,7 +2397,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 10){
+    if(q == 10){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2481,7 +2479,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 11){
+    if(q == 11){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2563,7 +2561,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 12){
+    if(q == 12){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2645,7 +2643,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 13){
+    if(q == 13){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2727,7 +2725,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 14){
+    if(q == 14){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2809,7 +2807,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 15){
+    if(q == 15){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2891,7 +2889,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 16){
+    if(q == 16){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -2973,7 +2971,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 17){
+    if(q == 17){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3055,7 +3053,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 18){
+    if(q == 18){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3137,7 +3135,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 19){
+    if(q == 19){
         if (n == 0){
             alert('1 = Fracasso')
         }
@@ -3219,7 +3217,7 @@ function funçaoarmasp(){
         }
     }
 
-    if(ap == 20){
+    if(q == 20){
         if (n == 0){
             alert('1 = Normal')
         }
@@ -3302,18 +3300,18 @@ function funçaoarmasp(){
     }
 }
 
-//Armas de fogo
+//Sorte
 
-let armasf = document.getElementById('armasf')
-let af = 18
-armasf.innerHTML = `${af}`
+let sorte = document.getElementById('sorte')
+let sor = 3
+sorte.innerHTML = `${sor}`
 
-function funçaoarmasf(){
+function funçaosorte(){
     
 
     let n = Math.floor(Math.random() * 20)
 
-    if(af == 1){
+    if(sor == 1){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3395,7 +3393,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 2){
+    if(sor == 2){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3477,7 +3475,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 3){
+    if(sor == 3){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3559,7 +3557,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 4){
+    if(sor == 4){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3640,8 +3638,7 @@ function funçaoarmasf(){
             alert('20 = Bom')
         }
     }
-
-    if(af == 5){
+    if(sor == 5){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3723,7 +3720,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 6){
+    if(sor == 6){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3805,7 +3802,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 7){
+    if(sor == 7){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3887,7 +3884,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 8){
+    if(sor == 8){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -3969,7 +3966,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 9){
+    if(sor == 9){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4051,7 +4048,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 10){
+    if(sor == 10){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4133,7 +4130,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 11){
+    if(sor == 11){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4215,7 +4212,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 12){
+    if(sor == 12){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4297,7 +4294,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 13){
+    if(sor == 13){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4379,7 +4376,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 14){
+    if(sor == 14){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4461,7 +4458,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 15){
+    if(sor == 15){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4543,7 +4540,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 16){
+    if(sor == 16){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4625,7 +4622,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 17){
+    if(sor == 17){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4707,7 +4704,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 18){
+    if(sor == 18){
         if (n == 0){
             alert('1 = Fracasso Extremo')
         }
@@ -4789,7 +4786,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 19){
+    if(sor == 19){
         if (n == 0){
             alert('1 = Fracasso')
         }
@@ -4871,7 +4868,7 @@ function funçaoarmasf(){
         }
     }
 
-    if(af == 20){
+    if(sor == 20){
         if (n == 0){
             alert('1 = Normal')
         }
@@ -4953,3308 +4950,3 @@ function funçaoarmasf(){
         }
     }
 }
-
-//Bestas
-
-let bestas = document.getElementById('bestas')
-let b = 19
-bestas.innerHTML = `${b}`
-
-function funçaobestas(){
-    
-
-    let n = Math.floor(Math.random() * 20)
-
-    if(b == 1){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Fracasso')
-        }
-
-        if (n == 18){
-            alert('19 = Fracasso')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(b == 2){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Fracasso')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(b == 3){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(b == 4){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-
-    if(b == 5){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-
-    if(b == 6){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-
-    if(b == 7){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 8){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 9){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 10){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 11){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 12){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 13){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 14){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 15){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 16){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 17){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 18){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 19){
-        if (n == 0){
-            alert('1 = Fracasso')
-        }
-
-        if (n == 1){
-            alert('2 = Normal')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Bom')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Extremo')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(b == 20){
-        if (n == 0){
-            alert('1 = Normal')
-        }
-
-        if (n == 1){
-            alert('2 = Normal')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Bom')
-        }
-
-        if (n == 9){
-            alert('10 = Bom')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Extremo')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-}
-
-//Explosivos
-
-let explosivos = document.getElementById('explosivos')
-let exp = 20
-explosivos.innerHTML = `${exp}`
-
-function funçaoexplosivos(){
-    
-
-    let n = Math.floor(Math.random() * 20)
-
-    if(exp == 1){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Fracasso')
-        }
-
-        if (n == 18){
-            alert('19 = Fracasso')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(exp == 2){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Fracasso')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(exp == 3){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Fracasso')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Normal')
-        }
-    }
-
-    if(exp == 4){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Fracasso')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-    if(exp == 5){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Fracasso')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Normal')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-
-    if(exp == 6){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Fracasso')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Normal')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Bom')
-        }
-    }
-
-    if(exp == 7){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Fracasso')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 8){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Fracasso')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Normal')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 9){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Fracasso')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 10){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Fracasso')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Normal')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 11){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Fracasso')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Normal')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 12){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Fracasso')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 13){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Fracasso')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Bom')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 14){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Fracasso')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Normal')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 15){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Fracasso')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Normal')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 16){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Fracasso')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Normal')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 17){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Fracasso')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Normal')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Bom')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 18){
-        if (n == 0){
-            alert('1 = Fracasso Extremo')
-        }
-
-        if (n == 1){
-            alert('2 = Fracasso')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Normal')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Bom')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 19){
-        if (n == 0){
-            alert('1 = Fracasso')
-        }
-
-        if (n == 1){
-            alert('2 = Normal')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Normal')
-        }
-
-        if (n == 9){
-            alert('10 = Bom')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Extremo')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-
-    if(exp == 20){
-        if (n == 0){
-            alert('1 = Normal')
-        }
-
-        if (n == 1){
-            alert('2 = Normal')
-        }
-
-        if (n == 2){
-            alert('3 = Normal')
-        }
-
-        if (n == 3){
-            alert('4 = Normal')
-        }
-
-        if (n == 4){
-            alert('5 = Normal')
-        }
-
-        if (n == 5){
-            alert('6 = Normal')
-        }
-
-        if (n == 6){
-            alert('7 = Normal')
-        }
-
-        if (n == 7){
-            alert('8 = Normal')
-        }
-
-        if (n == 8){
-            alert('9 = Bom')
-        }
-
-        if (n == 9){
-            alert('10 = Bom')
-        }
-
-        if (n == 10){
-            alert('11 = Bom')
-        }
-
-        if (n == 11){
-            alert('12 = Bom')
-        }
-
-        if (n == 12){
-            alert('13 = Bom')
-        }
-
-        if (n == 13){
-            alert('14 = Bom')
-        }
-
-        if (n == 14){
-            alert('15 = Bom')
-        }
-
-        if (n == 15){
-            alert('16 = Bom')
-        }
-
-        if (n == 16){
-            alert('17 = Extremo')
-        }
-
-        if (n == 17){
-            alert('18 = Extremo')
-        }
-
-        if (n == 18){
-            alert('19 = Extremo')
-        }
-
-        if (n == 19){
-            alert('20 = Extremo')
-        }
-    }
-}
-
-//
