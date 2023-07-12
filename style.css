@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#imagembeatriz{
+    background-color: rgb(60, 3, 94);
+    height: 400px;
+    border: 5px solid rgb(168, 155, 155);
+}
+
+#vida{
+    background-color: red;
+    width: 390px;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#sanidade{
+    background-color: blue;
+    width: 390px;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+table{
+    width: 410px;
+    margin-top: 0px;
+}
+
+td{
+    outline: 2px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 2em;
+}
+
+td#tdatributos{
+    font-weight: bolder;
+    text-align: center;
+}
+
+td.valor{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
