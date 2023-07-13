@@ -9,15 +9,15 @@
 <body>
     <div>
         <img src="Beatriz da Silva.png" alt="" id="imagembeatriz">
-        <p id="vida">Vida: 100/100</p>
-        <p id="sanidade">Sanidade: 100/100</p>
+        <p id="vida" onclick="funçaovida()">Vida: </p>
+        <p id="sanidade" onclick="funçaosanidade()">Sanidade: </p>
     </div>
 
     <div id="mapas">
 
     </div>
 
-    <input type="button" value="Mapas" onclick="adicionarmapa()" id="botaomapa">
+    <input type="button" value="Mapas e cartas" onclick="adicionarmapa()" id="botaomapa">
 
     <br>
 
@@ -35,6 +35,11 @@
             <tr>
                 <td onclick="funçaoforça()">Força</td>
                 <td class="valor" id="força"></td>
+            </tr>
+
+            <tr>
+                <td onclick="funçaoresistencia()">Resistência</td>
+                <td class="valor" id="resistencia"></td>
             </tr>
 
             <tr>
@@ -147,6 +152,11 @@
                 <td class="valor" id="sorte"></td>
             </tr>
 
+            <tr>
+                <td onclick="funçaonataçao()">Natação</td>
+                <td class="valor" id="nataçao"></td>
+            </tr>
+
         </table>
 
     </div>
@@ -170,7 +180,18 @@
 
     </div>
 
+    <div id="itens4" class="itens"></div>
+
+    <div id="itens5" class="itens"></div>
+
+    <div id="itens6" class="itens"></div>
+
+    <div id="itens7" class="itens"></div>
+
+    <div id="itens8" class="itens"></div>
+
     <script src="itens.js"></script>
+    <script src="atributos.js"></script>
     <script src="mapas.js"></script>
     <script src="script.js"></script>
     <script src="script2.js"></script>

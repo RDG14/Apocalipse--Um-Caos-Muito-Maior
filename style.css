@@ -58,6 +58,7 @@ td.valor{
 
 input{
     margin-top: 20px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
@@ -78,7 +79,17 @@ input{
 /* Mapas */
 
 .mapa{
+    height: 410px;
+}
+
+section{
+    border: 5px solid rgb(61, 61, 61);
     height: 400px;
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
 }
 
 
