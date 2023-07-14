@@ -32,7 +32,7 @@ function adicionaritem(){
 
     if(i == 'amt hardballer'){
         item9.innerHTML += `<img src="itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
-        item9.innerHTML += `<p>AMT HARDBALLER</p>`
+        item9.innerHTML += `<p>AMT Hardballer</p>`
     }
 
 
@@ -140,6 +140,10 @@ function tiraritem(){
         item3.innerHTML = ''
     }
 
+    if(i == 'amt harballer'){
+        item9.innerHTML = ''
+    }
+
 //FLUÍDO QUÍMICO
 
     if(i == 'fluido quimico'){
@@ -147,30 +151,10 @@ function tiraritem(){
 
         if(quantidade == 'nenhum'){
             item4.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+        } else{
             item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item4.innerHTML += `<p>1 Fluído Químico</p>`
+            item4.innerHTML += `<p>${quantidade} Fluídos Químicos</p>`
         }
-
-        if(quantidade == '2'){
-            item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item4.innerHTML += `<p>2 Fluídos Químicos</p>`
-        }
-
-        if(quantidade == '3'){
-            item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item4.innerHTML += `<p>3 Fluídos Químicos</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item4.innerHTML += `<p>4 Fluídos Químicos</p>`
-        }
-
-
     }
 
 
@@ -181,29 +165,10 @@ function tiraritem(){
 
         if(quantidade == 'nenhuma'){
             item5.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
-            item5.innerHTML += `<img src="itens/ervas.png" alt="" class="item">`
-            item5.innerHTML += `<p>1 Erva</p>`
-        }
-
-        if(quantidade == '2'){
+        } else{
             item5.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item5.innerHTML += `<p>2 Ervas</p>`
+            item5.innerHTML += `<p>${quantidade} Ervas</p>`
         }
-
-        if(quantidade == '3'){
-            item5.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item5.innerHTML += `<p>3 Ervas</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item5.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item5.innerHTML += `<p>4 Ervas</p>`
-        }
-
 
     }
 
@@ -214,30 +179,10 @@ if(i == 'cura'){
 
     if(quantidade == 'nenhuma'){
         item6.innerHTML = ''
-    }
-
-    if(quantidade == '1'){
+    } else{
         item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item6.innerHTML += `<p>1 Cura</p>`
+        item6.innerHTML += `<p>${quantidade} Curas</p>`
     }
-
-    if(quantidade == '2'){
-        item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item6.innerHTML += `<p>2 Curas</p>`
-    }
-
-    if(quantidade == '3'){
-        item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item6.innerHTML += `<p>3 Curas</p>`
-    }
-
-
-    if(quantidade == '4'){
-        item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item6.innerHTML += `<p>4 Curas</p>`
-    }
-
-
 }
 
 
@@ -245,33 +190,14 @@ if(i == 'cura'){
 //PÓLVORA
 
     if(i == 'polvora'){
-        let quantidade = prompt('Com quantos pólvoras você ficará?')
+        let quantidade = prompt('Com quantas pólvoras você ficará?')
 
         if(quantidade == 'nenhuma'){
             item7.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+        } else{
             item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item7.innerHTML += `<p>1 Pólvora</p>`
+            item7.innerHTML += `<p>${quantidade} Pólvoras</p>`
         }
-
-        if(quantidade == '2'){
-            item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item7.innerHTML += `<p>2 Pólvoras</p>`
-        }
-
-        if(quantidade == '3'){
-            item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item7.innerHTML += `<p>3 Pólvoras</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item7.innerHTML += `<p>4 Pólvoras</p>`
-        }
-
 
     }
 
@@ -279,34 +205,14 @@ if(i == 'cura'){
 //MUNIÇÃO DE PISTOLA
 
     if(i == 'muniçao de pistola'){
-        let quantidade = prompt('Com quantos pólvoras você ficará?')
+        let quantidade = prompt('Com quantas munições você ficará?')
 
         if(quantidade == 'nenhuma'){
-            item11.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+            item8.innerHTML = ''
+        } else{
             item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>1 Munição de pistola</p>`
+            item8.innerHTML += `<p>${quantidade} Munições de pistola</p>`
         }
-
-        if(quantidade == '2'){
-            item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>2 Munições de pistola</p>`
-        }
-
-        if(quantidade == '3'){
-            item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>3 Munições de pistola</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>4 munições de pistola</p>`
-        }
-
-
     }
 
 

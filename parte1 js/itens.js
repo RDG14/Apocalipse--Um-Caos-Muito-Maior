@@ -122,7 +122,7 @@ function adicionaritem(){
 }
 
 function tiraritem(){
-    let i = prompt('Adicione o item')
+    let i = prompt('Tire o item')
     let item1 = document.getElementById('itens1')
     let item2 = document.getElementById('itens2')
     let item3 = document.getElementById('itens3')
@@ -167,29 +167,10 @@ function tiraritem(){
 
         if(quantidade == 'nenhum'){
             item7.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+        } else{
             item7.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item7.innerHTML += `<p>1 Fluído Químico</p>`
+            item7.innerHTML += `<p>${quantidade} Fluídos Químicos</p>`
         }
-
-        if(quantidade == '2'){
-            item7.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item7.innerHTML += `<p>2 Fluídos Químicos</p>`
-        }
-
-        if(quantidade == '3'){
-            item7.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item7.innerHTML += `<p>3 Fluídos Químicos</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item7.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
-            item7.innerHTML += `<p>4 Fluídos Químicos</p>`
-        }
-
 
     }
 
@@ -201,29 +182,10 @@ function tiraritem(){
 
         if(quantidade == 'nenhuma'){
             item8.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
-            item8.innerHTML += `<img src="itens/ervas.png" alt="" class="item">`
-            item8.innerHTML += `<p>1 Erva</p>`
-        }
-
-        if(quantidade == '2'){
+        } else{
             item8.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item8.innerHTML += `<p>2 Ervas</p>`
+            item8.innerHTML += `<p>${quantidade} Ervas</p>`
         }
-
-        if(quantidade == '3'){
-            item8.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item8.innerHTML += `<p>3 Ervas</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item8.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
-            item8.innerHTML += `<p>4 Ervas</p>`
-        }
-
 
     }
 
@@ -234,30 +196,10 @@ if(i == 'cura'){
 
     if(quantidade == 'nenhuma'){
         item9.innerHTML = ''
-    }
-
-    if(quantidade == '1'){
+    } else{
         item9.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item9.innerHTML += `<p>1 Cura</p>`
+        item9.innerHTML += `<p>${quantidade} Curas</p>`
     }
-
-    if(quantidade == '2'){
-        item9.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item9.innerHTML += `<p>2 Curas</p>`
-    }
-
-    if(quantidade == '3'){
-        item9.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item9.innerHTML += `<p>3 Curas</p>`
-    }
-
-
-    if(quantidade == '4'){
-        item9.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-        item9.innerHTML += `<p>4 Curas</p>`
-    }
-
-
 }
 
 
@@ -269,30 +211,10 @@ if(i == 'cura'){
 
         if(quantidade == 'nenhuma'){
             item10.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+        } else{
             item10.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item10.innerHTML += `<p>1 Pólvora</p>`
+            item10.innerHTML += `<p>${quantidade} Pólvoras</p>`
         }
-
-        if(quantidade == '2'){
-            item10.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item10.innerHTML += `<p>2 Pólvoras</p>`
-        }
-
-        if(quantidade == '3'){
-            item10.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item10.innerHTML += `<p>3 Pólvoras</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item10.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
-            item10.innerHTML += `<p>4 Pólvoras</p>`
-        }
-
-
     }
 
 
@@ -303,31 +225,9 @@ if(i == 'cura'){
 
         if(quantidade == 'nenhuma'){
             item11.innerHTML = ''
-        }
-
-        if(quantidade == '1'){
+        } else{
             item11.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item11.innerHTML += `<p>1 Munição de pistola</p>`
+            item11.innerHTML += `<p>${quantidade} Munições de pistola</p>`
         }
-
-        if(quantidade == '2'){
-            item11.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item11.innerHTML += `<p>2 Munições de pistola</p>`
-        }
-
-        if(quantidade == '3'){
-            item11.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item11.innerHTML += `<p>3 Munições de pistola</p>`
-        }
-
-
-        if(quantidade == '4'){
-            item11.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item11.innerHTML += `<p>4 munições de pistola</p>`
-        }
-
-
     }
-
-
 }
