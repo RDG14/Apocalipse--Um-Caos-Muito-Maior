@@ -13,6 +13,10 @@ function adicionaritem(){
     let item9 = document.getElementById('itens9')
     let item10 = document.getElementById('itens10')
     let item11= document.getElementById('itens11')
+    let item12 = document.getElementById('itens12')
+    let item13 = document.getElementById('itens13')
+    let item14 = document.getElementById('itens14')
+    let item15 = document.getElementById('itens15')
 
 
     if (i == 'faca'){
@@ -33,6 +37,16 @@ function adicionaritem(){
     if(i == 'amt hardballer'){
         item9.innerHTML += `<img src="itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
         item9.innerHTML += `<p>AMT Hardballer</p>`
+    }
+
+    if(i == 'amuleto'){
+        item10.innerHTML += `<img src="itens/segunda-parte/amuleto.png" alt="" class="item">`
+        item10.innerHTML += `<p>Amuleto</p>`
+    }
+
+    if(i == 'kit medico'){
+        item11.innerHTML += `<img src="itens/kit medico.png" alt="" class="item">`
+        item11.innerHTML += `<p>Kit médico</p>`
     }
 
 
@@ -111,6 +125,36 @@ function adicionaritem(){
             
     }
 
+//PANOS
+
+    if(i == 'pano'){
+
+        let quant = 0
+
+        let quantidade = Number(prompt('Quantos panos você ficará?'))
+        let soma = quant + quantidade
+        quant = soma
+
+        item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
+        item12.innerHTML += `<p>${quant} Panos</p>`
+        
+    }
+
+//METAL
+
+if(i == 'metal'){
+
+    let quant = 0
+
+    let quantidade = Number(prompt('Quantos metais você ficará?'))
+    let soma = quant + quantidade
+    quant = soma
+
+    item13.innerHTML = `<img src="itens/Metal.png" alt="" class="item">`
+    item13.innerHTML += `<p>${quant} Metais</p>`
+    
+}
+
 }
 
 
@@ -127,6 +171,10 @@ function tiraritem(){
     let item9 = document.getElementById('itens9')
     let item10 = document.getElementById('itens10')
     let item11= document.getElementById('itens11')
+    let item12 = document.getElementById('itens12')
+    let item13 = document.getElementById('itens13')
+    let item14 = document.getElementById('itens14')
+    let item15 = document.getElementById('itens15')
 
     if(i == 'faca'){
         item1.innerHTML = ''
@@ -140,8 +188,16 @@ function tiraritem(){
         item3.innerHTML = ''
     }
 
-    if(i == 'amt harballer'){
+    if(i == 'amt hardballer'){
         item9.innerHTML = ''
+    }
+
+    if(i == 'amuleto'){
+        item10.innerHTML = ''
+    }
+
+    if(i == 'kit medico'){
+        item11.innerHTML = ''
     }
 
 //FLUÍDO QUÍMICO
@@ -215,7 +271,21 @@ if(i == 'cura'){
         }
     }
 
+//PANOS
+
+if(i == 'pano'){
+    let quantidade = prompt('Com quantos panos você ficará?')
+
+    if(quantidade == 'nenhuma'){
+        item12.innerHTML = ''
+    } else{
+        item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
+        item12.innerHTML += `<p>${quantidade} Panos</p>`
+    }
+}
 
 }
+
+
 
 */

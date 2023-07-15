@@ -12,6 +12,18 @@ function adicionarmapa(){
         mapa.innerHTML = `<img src="Mapas/parte 2/Casa.png" alt="" class="mapa">`
     }
 
+    if(m == 'mansao'){
+        mapa.innerHTML =`<img src="Mapas/parte 2/Mansão.png" alt="" class="mapa">`
+    }
+
+    if(m == 'mansao parte 2'){
+        mapa.innerHTML = `<img src="Mapas/parte 2/Mansão-parte-2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'mansao 2 andar'){
+        mapa.innerHTML = `<img src="Mapas/parte 2/Mansão 2 andar.png" alt="" class="mapa">`
+    }
+
     
     //CARTAS
 
