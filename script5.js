@@ -1,7 +1,7 @@
 //Produção de Itens
 
 let produçaodt = document.getElementById('produçaodt')
-let pdt = 1
+let pdt = 2
 produçaodt.innerHTML = `${pdt}`
 
 function funçaoproduçaodt(){
@@ -1652,7 +1652,7 @@ function funçaoproduçaodt(){
 //Química
 
 let quimica = document.getElementById('quimica')
-let q = 1
+let q = 2
 quimica.innerHTML = `${q}`
 
 function funçaoquimica(){
@@ -3303,7 +3303,7 @@ function funçaoquimica(){
 //Sorte
 
 let sorte = document.getElementById('sorte')
-let sor = 1
+let sor = 10
 sorte.innerHTML = `${sor}`
 
 function funçaosorte(){
@@ -4954,7 +4954,7 @@ function funçaosorte(){
 //Natação
 
 let nataçao = document.getElementById('nataçao')
-let nat = 1
+let nat = 4
 nataçao.innerHTML = `${nat}`
 
 function funçaonataçao(){

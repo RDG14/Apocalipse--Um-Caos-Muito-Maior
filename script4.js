@@ -1,7 +1,7 @@
 //Armas Cortantes
 
 let armasc = document.getElementById('armasc')
-let ac = 1
+let ac = 8
 armasc.innerHTML = `${ac}`
 
 function funçaoarmasc(){
@@ -1653,7 +1653,7 @@ function funçaoarmasc(){
 //Armas Pesadas
 
 let armasp = document.getElementById('armasp')
-let ap = 1
+let ap = 3
 armasp.innerHTML = `${ap}`
 
 function funçaoarmasp(){
@@ -3305,7 +3305,7 @@ function funçaoarmasp(){
 //Armas de fogo
 
 let armasf = document.getElementById('armasf')
-let af = 1
+let af = 10
 armasf.innerHTML = `${af}`
 
 function funçaoarmasf(){
@@ -4957,7 +4957,7 @@ function funçaoarmasf(){
 //Bestas
 
 let bestas = document.getElementById('bestas')
-let b = 1
+let b = 2
 bestas.innerHTML = `${b}`
 
 function funçaobestas(){
@@ -6609,7 +6609,7 @@ function funçaobestas(){
 //Explosivos
 
 let explosivos = document.getElementById('explosivos')
-let exp = 1
+let exp = 7
 explosivos.innerHTML = `${exp}`
 
 function funçaoexplosivos(){
