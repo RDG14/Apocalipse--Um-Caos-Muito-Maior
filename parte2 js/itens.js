@@ -1,4 +1,4 @@
-/*
+
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -288,4 +288,4 @@ if(i == 'pano'){
 
 
 
-*/
+

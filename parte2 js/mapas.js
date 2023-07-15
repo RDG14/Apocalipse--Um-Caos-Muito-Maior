@@ -1,4 +1,4 @@
-/*
+
 
 function adicionarmapa(){
     let m = prompt('Digite o mapa que quer abrir: ')
@@ -43,4 +43,4 @@ function adicionarmapa(){
 
 }
 
-*/
+
