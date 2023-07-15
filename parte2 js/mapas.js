@@ -1,6 +1,6 @@
 
 
-function adicionarmapa(){
+function adicionamapa(){
     let m = prompt('Digite o mapa que quer abrir: ')
     let mapa = document.getElementById('mapas')
 
