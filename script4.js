@@ -4957,7 +4957,7 @@ function funçaoarmasf(){
 //Bestas
 
 let bestas = document.getElementById('bestas')
-let b = 2
+let b = 4
 bestas.innerHTML = `${b}`
 
 function funçaobestas(){
