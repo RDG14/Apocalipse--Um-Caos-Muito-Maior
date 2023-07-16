@@ -45,8 +45,18 @@ function adicionaritem(){
     }
 
     if(i == 'kit medico'){
-        item11.innerHTML += `<img src="itens/kit medico.png" alt="" class="item">`
+        item11.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
         item11.innerHTML += `<p>Kit médico</p>`
+    }
+
+    if(i == 'chave da escultura'){
+        item14.innerHTML += `<img src="itens/segunda-parte/chave da escultura.png" alt="" class="item">`
+        item14.innerHTML  += `<p>Chave de Setas</p>`
+    }
+
+    if(i == 'chave do açougue'){
+        item15.innerHTML = `<img src="itens/segunda-parte/chave do açougue.png" alt="" class="item">`
+        item15.innerHTML  += `<p>Chave do Açougue</p>`
     }
 
 
@@ -200,6 +210,8 @@ function tiraritem(){
         item11.innerHTML = ''
     }
 
+    
+
 //FLUÍDO QUÍMICO
 
     if(i == 'fluido quimico'){
@@ -216,7 +228,7 @@ function tiraritem(){
 
 //ERVA
 
-    if(i == 'erva'){
+    if(i == 'ervas'){
         let quantidade = prompt('Com quantos ervas você ficará?')
 
         if(quantidade == 'nenhuma'){
@@ -283,6 +295,20 @@ if(i == 'pano'){
         item12.innerHTML += `<p>${quantidade} Panos</p>`
     }
 }
+
+//METAL
+
+if(i == 'metal'){
+    let quantidade = prompt('Com quantos panos você ficará?')
+
+    if(quantidade == 'nenhum'){
+        item13.innerHTML = ''
+    } else{
+        item13.innerHTML = `<img src="itens/metal.png" alt="" class="item">`
+        item13.innerHTML += `<p>${quantidade} Metais</p>`
+    }
+}
+
 
 }
 
