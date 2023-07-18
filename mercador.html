@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+
+        body{
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        div.dinheiro {
+            display: inline-table;
+            margin-bottom: 50px;
+        }
+
+        img{
+            height: 50px;
+        }
+
+        p.vendas{
+            border: 2px solid white;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>MERCADOR</h1>
+    
+    <div class="dinheiro">
+        <p id="dinheiro" onclick="contarmoeda()"></p>
+    </div>
+
+    <div class="dinheiro">
+        <img src="Moeda.png" alt="">
+    </div>
+
+    <p class="vendas" onclick="cura()">CURA: 1500 moedas</p>
+    <p class="vendas" onclick="muniçaop()">MUNIÇÃO DE PISTOLA: 1000 moedas</p>
+    <p class="vendas" onclick="coronhamelhoradaah()">CORONHA MELHORADA AMT HARDBALLER: <br> <br> <strong>7000 moedas</strong></p>
+
+    <br>
+    <br>
+    <br>
+
+    <h1>MELHORIA NAS ARMAS</h1>
+    <h2>AMT Hardballer</h2>
+
+    <p class="vendas" onclick="melhoriadanoamt()">Melhoria no dano: 1500 moedas (+1 de dano)</p>
+    <p class="vendas" onclick="melhoria2danoamt()">Melhoria avançada do dano: 5000 moedas (+1d6 de dano)</p>
+
+
+    <script src="mercador.js"></script>
+</body>
+</html>

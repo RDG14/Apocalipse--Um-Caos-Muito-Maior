@@ -26,19 +26,39 @@ let s = 100
 sanidade.innerHTML += `${s}/100`
 
 function funçaosanidade(){
-    let incremento = confirm('Aperte OK para adicionar e CANCELAR para tirar')
+    let escolha = confirm('OK para adicionar ou tirar vida. CANCELAR para rolar dado de sanidade.')
 
-    if(incremento == true){
-        let n = Number(prompt('Digite o valor a ser adicionado: '))
-        let soma = s + n
-        s = soma
-        sanidade.innerHTML = `Sanidade: ${s}/100`
+    if(escolha == true){
+        let incremento = confirm('Aperte OK para adicionar e CANCELAR para tirar')
+
+        if(incremento == true){
+            let n = Number(prompt('Digite o valor a ser adicionado: '))
+            let soma = s + n
+            s = soma
+            sanidade.innerHTML = `Sanidade: ${s}/100`
+        }
+    
+        else{
+            let n = Number(prompt('Digite o valor a ser adicionado: '))
+            let subtração = s - n
+            s = subtração
+            sanidade.innerHTML = `Sanidade: ${s}/100`
+        }
     }
 
     else{
-        let n = Number(prompt('Digite o valor a ser adicionado: '))
-        let subtração = s - n
-        s = subtração
-        sanidade.innerHTML = `Sanidade: ${s}/100`
+        let n = Math.floor(Math.random() * 101)
+
+        if(n == 0){
+            n = 1
+        }
+
+        if(n > s){
+            alert(`${n} = fracasso`)
+        }
+
+        if(n < s){
+            alert(`${n} = sucesso`)
+        }
     }
 }

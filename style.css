@@ -74,7 +74,10 @@ input{
 .itens{
     display: inline-table;
     margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
 }
+
 
 /* Mapas */
 

@@ -41,6 +41,28 @@ function adicionamapa(){
         </section>`
     }
 
+
+    //PORTAS
+
+    if(m == 'porta 1'){
+        mapa.innerHTML = '<img src="Mapas/parte 2/Porta do açougue.png" alt="" class="mapa">'
+    }
+
+    if(m == 'porta 2'){
+        mapa.innerHTML = '<img src="Mapas/parte 2/Porta do necrotério.png" alt="" class="mapa">'
+    }
+
+    if(m == 'necroterio'){
+        mapa.innerHTML = '<img src="Mapas/parte 2/Necrotério.png" alt="" class="mapa">'
+    }
+
+
+    //MERCADOR
+
+    if(m == 'mercador'){
+        mapa.innerHTML = `<iframe src="mercador.html" frameborder="1" width="400px" height="400px"></iframe>`
+    }
+
 }
 
 
