@@ -255,6 +255,8 @@ function tiraritem(){
     let item20 = document.getElementById('itens20')
     let item21 = document.getElementById('itens21')
     let item22 = document.getElementById('itens22')
+    let item23 = document.getElementById('itens23')
+    let item24 = document.getElementById('itens24')
 
     if(i == 'faca'){
         item1.innerHTML = ''
@@ -310,6 +312,10 @@ function tiraritem(){
 
     if(i == 'amuleto 1'){
         item22.innerHTML =  ''
+    }
+
+    if(i == 'frasco'){
+        item23.innerHTML = ''
     }
 
     
@@ -449,6 +455,22 @@ if(i == 'muniçao de shotgun'){
 
     if(quant_muniçaos == 0){
         item19.innerHTML = ''
+    }
+}
+
+//BANDAGENS
+
+if(i == 'bandagem'){
+    let quantidade = prompt('Quantas bandagens você usou?')
+
+    let subtração = quant_bandagens - quantidade
+    quant_bandagens = subtração
+
+    item24.innerHTML = `<img src="itens/bandagens.png" alt="" class="item">`
+    item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
+
+    if(quant_muniçaos == 0){
+        item24.innerHTML = ''
     }
 }
 
