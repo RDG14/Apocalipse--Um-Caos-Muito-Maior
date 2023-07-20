@@ -3309,6 +3309,26 @@ let af = 10
 armasf.innerHTML = `${af}`
 
 function funçaoarmasf(){
+
+    let rolar = confirm('OK para rolagem normal. CANCELAR para usar melhorias.')
+
+    if(rolar == false){
+        let arma = prompt('Qual arma você vai usar?')
+
+        if(arma == 'd3'){
+            let melhoria = prompt('Qual melhoria?')
+                
+                if(melhoria == 'coronha'){
+                    af = af + 2
+                }
+
+                if(melhoria = 'cadencia'){
+                    af = af + 1
+                }
+
+            
+        }
+    }
     
 
     let n = Math.floor(Math.random() * 20)

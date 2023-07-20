@@ -1,5 +1,5 @@
 let vida = document.getElementById('vida')
-let v = 100
+let v = 94
 vida.innerHTML += `${v}/100`
 
 function funçaovida(){
@@ -22,7 +22,7 @@ function funçaovida(){
 
 
 let sanidade = document.getElementById('sanidade')
-let s = 100
+let s = 99
 sanidade.innerHTML += `${s}/100`
 
 function funçaosanidade(){

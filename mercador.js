@@ -2,6 +2,7 @@ let d = 0
 let p = document.getElementById('dinheiro')
 p.innerHTML = `${d} moedas`
 
+
 function contarmoeda(){
 let incremento = confirm('OK para adicionar. CANCELAR para tirar')
 
@@ -26,6 +27,7 @@ else{
 function cura(){
     d = d-1500
     p.innerHTML = `${d} moedas`
+
 }
 
 function muniçaop(){
@@ -52,3 +54,22 @@ function melhoria2danoamt(){
     d = d-5000
     p.innerHTML = `${d} moedas`
 }
+
+function cadenciadetiro(){
+    d = d-8000
+    p.innerHTML = `${d} moedas`
+}
+
+function frequenciadetiro(){
+    d = d-15000
+    p.innerHTML = `${d} moedas`
+}
+
+
+//MEDICINA
+
+function curacompleta(){
+    d = d-10000
+    p.innerHTML = `${d} moedas`
+}
+

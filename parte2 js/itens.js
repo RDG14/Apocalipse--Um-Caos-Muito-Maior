@@ -3,6 +3,10 @@ let quant_ervas = 0 //ERVAS
 let quant_cura = 0 //CURA
 let quant_polvora = 0 //PÓLVORA
 let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
+let quant_pano = 1 //PANO
+let quant_metal = 0 //METAL
+let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
+let quant_bandagens = 0 //BANDAGENS
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -27,7 +31,9 @@ function adicionaritem(){
     let item19 = document.getElementById('itens19')
     let item20 = document.getElementById('itens20')
     let item21 = document.getElementById('itens21')
-    
+    let item22 = document.getElementById('itens22')
+    let item23 = document.getElementById('itens23')
+    let item24 = document.getElementById('itens24')
 
 
     if (i == 'faca'){
@@ -50,9 +56,9 @@ function adicionaritem(){
         item9.innerHTML += `<p>AMT Hardballer</p>`
     }
 
-    if(i == 'amuleto'){
-        item10.innerHTML += `<img src="itens/segunda-parte/amuleto.png" alt="" class="item">`
-        item10.innerHTML += `<p>Amuleto</p>`
+    if(i == 'setas'){
+        item10.innerHTML += `<img src="itens/segunda-parte/Setas.png" alt="" class="item">`
+        item10.innerHTML += `<p>Setas</p>`
     }
 
     if(i == 'kit medico'){
@@ -78,6 +84,32 @@ function adicionaritem(){
     if(i == 'ruby'){
         item17.innerHTML = `<img src="itens/segunda-parte/Ruby.png" alt="" class="item">`
         item17.innerHTML += `<p>Ruby</p>`
+    }
+
+    if(i == 'chave de setas 2'){
+        item18.innerHTML = `<img src="itens/segunda-parte/Chave de setas melhorada.png" alt="" class="item"></img>`
+        item18.innerHTML += `<p>Chave de Setas Melhorada</p>`
+    }
+
+    if(i == 'benelli'){
+        item20.innerHTML = `<img src="itens/segunda-parte/Shotgun Benelli M1014.png" alt="" class="item" style="width: 140px";></img>`
+        item20.innerHTML += `<p>Benelli M1014</p>`
+
+    }
+
+    if(i == 'amuleto valioso'){
+        item21.innerHTML = `<img src="itens/segunda-parte/amuleto valioso.png" alt="" class="item"></img>`
+        item21.innerHTML += `<p>Amuleto Valioso</p>`
+    }
+
+    if(i == 'amuleto 1'){
+        item22.innerHTML = `<img src="itens/segunda-parte/Amuleto 1.png" alt="" class="item"></img>`
+        item22.innerHTML += `<p>Amuleto 1</p>`
+    }
+
+    if(i == 'frasco'){
+        item23.innerHTML = `<img src="itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
+        item23.innerHTML += `<p>Frasco</p>`
     }
 
 
@@ -139,14 +171,12 @@ function adicionaritem(){
 
     if(i == 'muniçao de pistola'){
 
-            let quant = 0
-
-            let quantidade = Number(prompt('Quantas munições você ficará?'))
-            let soma = quant + quantidade
-            quant = soma
+            let quantidade = Number(prompt('Quantas munições você pegou?'))
+            let soma = quant_muniçaop + quantidade
+            quant_muniçaop = soma
 
             item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>${quant} Munições de pistola</p>`
+            item8.innerHTML += `<p>${quant_muniçaop} Munições de pistola</p>`
             
     }
 
@@ -154,14 +184,12 @@ function adicionaritem(){
 
     if(i == 'pano'){
 
-        let quant = 0
-
-        let quantidade = Number(prompt('Quantos panos você ficará?'))
-        let soma = quant + quantidade
-        quant = soma
+        let quantidade = Number(prompt('Quantos panos você pegou?'))
+        let soma = quant_pano + quantidade
+        quant_pano = soma
 
         item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
-        item12.innerHTML += `<p>${quant} Panos</p>`
+        item12.innerHTML += `<p>${quant_pano} Panos</p>`
         
     }
 
@@ -169,15 +197,35 @@ function adicionaritem(){
 
 if(i == 'metal'){
 
-    let quant = 0
-
-    let quantidade = Number(prompt('Quantos metais você ficará?'))
-    let soma = quant + quantidade
-    quant = soma
+    let quantidade = Number(prompt('Quantos metais você pegou?'))
+    let soma = quant_metal + quantidade
+    quant_metal = soma
 
     item13.innerHTML = `<img src="itens/Metal.png" alt="" class="item">`
-    item13.innerHTML += `<p>${quant} Metais</p>`
+    item13.innerHTML += `<p>${quant_metal} Metais</p>`
     
+}
+
+//MUNIÇÃO DE SHOTGUN
+
+if(i == 'muniçao de shotgun'){
+    let quantidade = Number(prompt('Quantas munições você pegou?'))
+    let soma = quant_muniçaos + quantidade
+    quant_muniçaos = soma
+
+    item19.innerHTML = `<img src="itens/munição de shotgun.png" alt="" class="item">`
+    item19.innerHTML += `<p>${quant_muniçaos} Munição de Shotgun</p>`
+}
+
+//BANDAGENS
+
+if(i == 'bandagem'){
+    let quantidade = Number(prompt('Quantas bandagens você pegou?'))
+    let soma = quant_bandagens + quantidade
+    quant_bandagens = soma
+
+    item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
+    item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
 }
 
 }
@@ -206,6 +254,7 @@ function tiraritem(){
     let item19 = document.getElementById('itens19')
     let item20 = document.getElementById('itens20')
     let item21 = document.getElementById('itens21')
+    let item22 = document.getElementById('itens22')
 
     if(i == 'faca'){
         item1.innerHTML = ''
@@ -223,7 +272,7 @@ function tiraritem(){
         item9.innerHTML = ''
     }
 
-    if(i == 'amuleto'){
+    if(i == 'setas'){
         item10.innerHTML = ''
     }
 
@@ -245,6 +294,22 @@ function tiraritem(){
 
     if(i == 'ruby'){
         item17.innerHTML = ''
+    }
+
+    if(i == 'chave de setas 2'){
+        item18.innerHTML = ''
+    }
+
+    if (i == 'benelli'){
+        item20.innerHTML = ''
+    }
+
+    if(i == 'amuleto valioso'){
+        item21.innerHTML = ''
+    }
+
+    if(i == 'amuleto 1'){
+        item22.innerHTML =  ''
     }
 
     
@@ -287,7 +352,7 @@ function tiraritem(){
 //CURA
 
 if(i == 'cura'){
-    let quantidade = prompt('Com quantos curas você ficará?')
+    let quantidade = prompt('Quantas curas você usou?')
 
     let subtração = quant_cura - quantidade
     quant_cura = subtração
@@ -306,7 +371,7 @@ if(i == 'cura'){
 //PÓLVORA
 
     if(i == 'polvora'){
-        let quantidade = prompt('Com quantas pólvoras você ficará?')
+        let quantidade = prompt('Quantas pólvoras você usou?')
 
         let subtração = quant_polvora - quantidade
         quant_polvora = subtração
@@ -324,39 +389,66 @@ if(i == 'cura'){
 //MUNIÇÃO DE PISTOLA
 
     if(i == 'muniçao de pistola'){
-        let quantidade = prompt('Com quantas munições você ficará?')
+        let quantidade = prompt('Quantas munições você usou?')
 
-        if(quantidade == '0'){
+        let subtração = quant_muniçaop - quantidade
+        quant_muniçaop = subtração
+
+        item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
+        item8.innerHTML += `<p>${quant_muniçaop} Munições de pistola</p>`
+
+        if(quant_muniçaop == 0){
             item8.innerHTML = ''
-        } else{
-            item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
-            item8.innerHTML += `<p>${quantidade} Munições de pistola</p>`
         }
     }
 
 //PANOS
 
 if(i == 'pano'){
-    let quantidade = prompt('Com quantos panos você ficará?')
+    let quantidade = prompt('Quantos panos você usou?')
 
-    if(quantidade == '0'){
+    let subtração = quant_pano - quantidade
+    quant_pano = subtração
+
+    item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
+    item12.innerHTML += `<p>${quant_pano} Panos</p>`
+
+    if(quant_pano == 0){
         item12.innerHTML = ''
-    } else{
-        item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
-        item12.innerHTML += `<p>${quantidade} Panos</p>`
     }
 }
 
 //METAL
 
 if(i == 'metal'){
-    let quantidade = prompt('Com quantos metais você ficará?')
+    let quantidade = prompt('Quantos metais você usou?')
 
-    if(quantidade == '0'){
+    let subtração = quant_metal - quantidade
+    quant_metal = subtração
+
+    item13.innerHTML = `<img src="itens/metal.png" alt="" class="item">`
+    item13.innerHTML += `<p>${quant_metal} Metais</p>`
+
+    if(quant_metal == 0){
         item13.innerHTML = ''
-    } else{
-        item13.innerHTML = `<img src="itens/metal.png" alt="" class="item">`
-        item13.innerHTML += `<p>${quantidade} Metais</p>`
+    }
+
+}
+
+
+//MUNIÇÃO DE SHOTGUN
+
+if(i == 'muniçao de shotgun'){
+    let quantidade = prompt('Quantas munições você usou?')
+
+    let subtração = quant_muniçaos - quantidade
+    quant_muniçaos = subtração
+
+    item19.innerHTML = `<img src="itens/munição de shotgun.png" alt="" class="item">`
+    item19.innerHTML += `<p>${quant_muniçaos} Munição de Shotgun</p>`
+
+    if(quant_muniçaos == 0){
+        item19.innerHTML = ''
     }
 }
 
@@ -432,84 +524,59 @@ function dano(){
     }
 
     if(d == 'd3'){ //AMT Hardballer
+
+        let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
         let n = Math.floor(Math.random() * 20)
-
-        if(n == 0){
-            alert('1 de dano')
+        n = n + 1
+        
+        if(melhoria == true){
+            n = Math.floor(Math.random() * 20)
         }
 
-        if(n == 1){
-            alert('2 de dano')
-        } 
+        else{
+            let m = prompt('Qual melhoria?')
 
-        if(n == 2){
-            alert('3 de dano')
+            if(m == 'dano'){
+                let quantidade = Number(prompt('Quantas?'))
+
+                n = n + quantidade
+            }
+
+            if(m == 'dano 2'){
+                let quantidade = Number(prompt('Quantas?'))
+
+                n2 = Math.floor(Math.random() * 5 * quantidade)
+                n2++
+
+                alert(`d20 = ${n}`)
+                alert(`${quantidade}d6 = ${n2}`)
+
+                n = n + n2
+                
+            }
+
         }
 
-        if(n == 3){
-            alert('4 de dano')
-        }
+        alert(`${n} de dano`)
 
-        if(n == 4){
-            alert('5 de dano')
-        }
-
-        if(n == 5){
-            alert('6 de dano')
-        }
-
-        if(n == 6){
-            alert('7 de dano')
-        }
-
-        if(n == 7){
-            alert('8 de dano')
-        }
-
-        if(n == 8){
-            alert('9 de dano')
-        }
-
-        if(n == 9){
-            alert('10 de dano')
-        }
-
-        if(n == 10){
-            alert('11 de dano')
-        }
-
-        if(n == 11){
-            alert('12 de dano')
-        }
-
-        if(n == 13){
-            alert('13 de dano')
-        }
-
-        if(n == 14){
-            alert('15 de dano')
-        }
-
-        if(n == 15){
-            alert('16 de dano')
-        }
-
-        if(n == 16){
-            alert('17 de dano')
-        }
-
-        if(n == 17){
-            alert('18 de dano')
-        }
-
-        if(n == 18){
-            alert('19 de dano')
-        }
-
-        if(n == 19){
-            alert('20 de dano')
-        }
     }
+
+    if(d == 'd4'){ //Banelli M1014
+        let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
+        let n = Math.floor(Math.random() * 20 + 1)
+        let n2 = Math.floor(Math.random() * 20 + 1)
+        let n3 = Math.floor(Math.random() * 8 + 1)
+        let soma = n + n2 + n3
+
+        if(melhoria == true){
+            alert(`d20 = ${n}`)
+            alert(`d20 = ${n2}`)
+            alert(`d8 = ${n3}`)
+        }
+        
+        alert(`${soma} de dano`)
+    }
+
 }
 
 function curas(){
@@ -519,16 +586,36 @@ function curas(){
     let cura = prompt('Qual item você quer usar para curar.')
 
     if(cura == 'cura'){
-        let dado20 = Math.floor(Math.random() * 20)
-        dado20 ++
-        let dado12 = Math.floor(Math.random() * 12)
-        dado12 ++
+        if(quant_cura == 0){
+            alert('Você não tem cura para usar')
+        }
 
-        let soma = dado20 + dado12
-
-        alert(`${dado20} + ${dado12} = ${soma}`)
-
-        let quantidade = prompt('Quantas curas você ficará')
+        else{
+            let dado20 = Math.floor(Math.random() * 20)
+            dado20 ++
+            let dado12 = Math.floor(Math.random() * 12)
+            dado12 ++
+    
+            let soma = dado20 + dado12
+    
+            alert(`${dado20} + ${dado12} = ${soma}`)
+    
+            quant_cura = quant_cura - 1
+            item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
+            item6.innerHTML += `<p>${quant_cura} Curas</p>`
+        
+            if(quant_cura == 0){
+                item6.innerHTML = ''
+            }
+    
+            v = v + soma
+            vida.innerHTML = `Vida: ${v}/100`
+    
+            if(v > 100){
+                v = 100
+                vida.innerHTML = `Vida: ${v}/100`
+            }
+        }
     }
 
     if(cura == 'kit medico'){
@@ -551,10 +638,19 @@ function curas(){
 
             if(soma1 > soma2){
                 alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
+                v = v + soma1
+                vida.innerHTML = `Vida: ${v}/100`
             } 
             
             else if(soma1 < soma2){
                 alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
+                v = v + soma2
+                vida.innerHTML = `Vida: ${v}/100`
+            }
+
+            if(v > 100){
+                v = 100
+                vida.innerHTML = `Vida: ${v}/100`
             }
 
             item11.innerHTML = ''
@@ -569,6 +665,14 @@ function curas(){
             let soma1 = dado20 + dado12
 
             alert(`${dado20} + ${dado12} = ${soma1}`)
+
+            v = v + soma1
+            vida.innerHTML = `Vida: ${v}/100`
+
+            if(v > 100){
+                v = 100
+                vida.innerHTML = `Vida: ${v}/100`
+            }
 
             item11.innerHTML = ''
         }
