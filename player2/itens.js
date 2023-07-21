@@ -51,9 +51,9 @@ function adicionaritem(){
         item3.innerHTML += `<p>Foto de Família</p>`
     }
 
-    if(i == 'amt hardballer'){
+    if(i == 'pistola'){
         item9.innerHTML += `<img src="../itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
-        item9.innerHTML += `<p>AMT Hardballer</p>`
+        item9.innerHTML += `<p>Pistola</p>`
     }
 
     if(i == 'frasco 2'){
@@ -511,40 +511,13 @@ function dano(){
         }
     }
 
-    if(d == 'd2'){ //Faca
-        let n = Math.floor(Math.random() * 8)
+    if(d == 'd2'){ //Machado
+        let n = Math.floor(Math.random() * 12)
+        n++
 
-        if(n == 0){
-            alert('1 de dano')
-        }
+        alert(`${n} de dano`)
 
-        if(n == 1){
-            alert('2 de dano')
-        } 
 
-        if(n == 2){
-            alert('3 de dano')
-        }
-
-        if(n == 3){
-            alert('4 de dano')
-        }
-
-        if(n == 4){
-            alert('5 de dano')
-        }
-
-        if(n == 5){
-            alert('6 de dano')
-        }
-
-        if(n == 6){
-            alert('7 de dano')
-        }
-
-        if(n == 7){
-            alert('8 de dano')
-        }
     }
 
     if(d == 'd3'){ //AMT Hardballer
@@ -553,13 +526,6 @@ function dano(){
         let n = Math.floor(Math.random() * 20)
         n = n + 1
 
-        n2 = Math.floor(Math.random() * 5)
-        n2++
-
-        alert(`d20 = ${n}`)
-        alert(`d6 = ${n2}`)
-
-        n = n + n2
 
         if(melhoria == false){
             let m = prompt('Qual melhoria?')
