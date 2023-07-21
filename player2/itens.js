@@ -36,9 +36,9 @@ function adicionaritem(){
     let item24 = document.getElementById('itens24')
 
 
-    if (i == 'faca'){
-        item1.innerHTML += `<img src="../itens/primeira-parte/primeira-arma.png" alt="" class="item" id="faca">`
-        item1.innerHTML += `<p>Faca</p>`
+    if (i == 'machado'){
+        item1.innerHTML += `<img src="../itens/segunda-parte/Machado.png" alt="" class="item" id="faca">`
+        item1.innerHTML += `<p>Machado</p>`
     }
 
     if (i == 'lanterna'){
