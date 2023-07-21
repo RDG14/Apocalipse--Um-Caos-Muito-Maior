@@ -1,8 +1,8 @@
-let quant_fq = 1 //FLUÍDO QUÍMICO
-let quant_ervas = 0 //ERVAS
-let quant_cura = 0 //CURA
+let quant_fq = 2 //FLUÍDO QUÍMICO
+let quant_ervas = 1 //ERVAS
+let quant_cura = 1 //CURA
 let quant_polvora = 0 //PÓLVORA
-let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
+let quant_muniçaop = 5 //MUNIÇÃO DE PISTOLA
 let quant_pano = 1 //PANO
 let quant_metal = 0 //METAL
 let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
@@ -56,9 +56,9 @@ function adicionaritem(){
         item9.innerHTML += `<p>AMT Hardballer</p>`
     }
 
-    if(i == 'setas'){
-        item10.innerHTML += `<img src="itens/segunda-parte/Setas.png" alt="" class="item">`
-        item10.innerHTML += `<p>Setas</p>`
+    if(i == 'frasco 2'){
+        item10.innerHTML += `<img src="itens/segunda-parte/Frasco melhoria sanidade.png" alt="" class="item">`
+        item10.innerHTML += `<p>Frasco de líquido azul</p>`
     }
 
     if(i == 'kit medico'){
@@ -66,9 +66,9 @@ function adicionaritem(){
         item11.innerHTML += `<p>Kit médico</p>`
     }
 
-    if(i == 'chave de setas'){
-        item14.innerHTML += `<img src="itens/segunda-parte/chave da escultura.png" alt="" class="item">`
-        item14.innerHTML  += `<p>Chave de Setas</p>`
+    if(i == 'frasco'){
+        item14.innerHTML = `<img src="itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
+        item14.innerHTML += `<p>Frasco de líquido vermelho</p>`
     }
 
     if(i == 'chave do açougue'){
@@ -105,11 +105,6 @@ function adicionaritem(){
     if(i == 'amuleto 1'){
         item22.innerHTML = `<img src="itens/segunda-parte/Amuleto 1.png" alt="" class="item"></img>`
         item22.innerHTML += `<p>Amuleto 1</p>`
-    }
-
-    if(i == 'frasco'){
-        item23.innerHTML = `<img src="itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
-        item23.innerHTML += `<p>Frasco</p>`
     }
 
 
@@ -274,7 +269,7 @@ function tiraritem(){
         item9.innerHTML = ''
     }
 
-    if(i == 'setas'){
+    if(i == 'frasco 2'){
         item10.innerHTML = ''
     }
 
@@ -282,7 +277,7 @@ function tiraritem(){
         item11.innerHTML = ''
     }
 
-    if(i == 'chave de setas'){
+    if(i == 'frasco'){
         item14.innerHTML = ''
     }
 
@@ -314,9 +309,7 @@ function tiraritem(){
         item22.innerHTML =  ''
     }
 
-    if(i == 'frasco'){
-        item23.innerHTML = ''
-    }
+
 
     
 
@@ -466,10 +459,10 @@ if(i == 'bandagem'){
     let subtração = quant_bandagens - quantidade
     quant_bandagens = subtração
 
-    item24.innerHTML = `<img src="itens/bandagens.png" alt="" class="item">`
+    item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
     item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
 
-    if(quant_muniçaos == 0){
+    if(quant_bandagens == 0){
         item24.innerHTML = ''
     }
 }
@@ -550,12 +543,16 @@ function dano(){
         let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
         let n = Math.floor(Math.random() * 20)
         n = n + 1
-        
-        if(melhoria == true){
-            n = Math.floor(Math.random() * 20)
-        }
 
-        else{
+        n2 = Math.floor(Math.random() * 5)
+        n2++
+
+        alert(`d20 = ${n}`)
+        alert(`d6 = ${n2}`)
+
+        n = n + n2
+
+        if(melhoria == false){
             let m = prompt('Qual melhoria?')
 
             if(m == 'dano'){

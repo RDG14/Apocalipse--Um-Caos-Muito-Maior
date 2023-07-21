@@ -1,4 +1,4 @@
-let d = 0
+let d = 3600
 let p = document.getElementById('dinheiro')
 p.innerHTML = `${d} moedas`
 
@@ -28,6 +28,11 @@ function cura(){
     d = d-1500
     p.innerHTML = `${d} moedas`
 
+}
+
+function kitmedico(){
+    d = d-4000
+    p.innerHTML = `${d} moedas`
 }
 
 function muniçaop(){
@@ -73,3 +78,7 @@ function curacompleta(){
     p.innerHTML = `${d} moedas`
 }
 
+function curaparcial(){
+    d = d-7000
+    p.innerHTML = `${d} moedas`
+}
