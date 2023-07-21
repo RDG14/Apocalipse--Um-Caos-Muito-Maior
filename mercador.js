@@ -1,4 +1,4 @@
-let d = 3600
+let d = 0
 let p = document.getElementById('dinheiro')
 p.innerHTML = `${d} moedas`
 

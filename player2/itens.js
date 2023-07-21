@@ -1,9 +1,9 @@
-let quant_fq = 2 //FLUÍDO QUÍMICO
-let quant_ervas = 1 //ERVAS
-let quant_cura = 1 //CURA
+let quant_fq = 0 //FLUÍDO QUÍMICO
+let quant_ervas = 0 //ERVAS
+let quant_cura = 0 //CURA
 let quant_polvora = 0 //PÓLVORA
-let quant_muniçaop = 5 //MUNIÇÃO DE PISTOLA
-let quant_pano = 1 //PANO
+let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
+let quant_pano = 0 //PANO
 let quant_metal = 0 //METAL
 let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
@@ -37,78 +37,78 @@ function adicionaritem(){
 
 
     if (i == 'faca'){
-        item1.innerHTML += `<img src="itens/primeira-parte/primeira-arma.png" alt="" class="item" id="faca">`
+        item1.innerHTML += `<img src="../itens/primeira-parte/primeira-arma.png" alt="" class="item" id="faca">`
         item1.innerHTML += `<p>Faca</p>`
     }
 
     if (i == 'lanterna'){
-        item2.innerHTML += `<img src="itens/primeira-parte/lanterna.png" alt="" class="item">`
+        item2.innerHTML += `<img src="../itens/primeira-parte/lanterna.png" alt="" class="item">`
         item2.innerHTML += `<p>Lanterna</p>`
     }
 
     if(i == 'foto de familia'){
-        item3.innerHTML += `<img src="itens/primeira-parte/foto-da-familia.png" alt="" class="item">`
+        item3.innerHTML += `<img src="../itens/primeira-parte/foto-da-familia.png" alt="" class="item">`
         item3.innerHTML += `<p>Foto de Família</p>`
     }
 
     if(i == 'amt hardballer'){
-        item9.innerHTML += `<img src="itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
+        item9.innerHTML += `<img src="../itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
         item9.innerHTML += `<p>AMT Hardballer</p>`
     }
 
     if(i == 'frasco 2'){
-        item10.innerHTML += `<img src="itens/segunda-parte/Frasco melhoria sanidade.png" alt="" class="item">`
+        item10.innerHTML += `<img src="../itens/segunda-parte/Frasco melhoria sanidade.png" alt="" class="item">`
         item10.innerHTML += `<p>Frasco de líquido azul</p>`
     }
 
     if(i == 'kit medico'){
-        item11.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
+        item11.innerHTML = `<img src="../itens/kit medico.png" alt="" class="item">`
         item11.innerHTML += `<p>Kit médico</p>`
     }
 
     if(i == 'frasco'){
-        item14.innerHTML = `<img src="itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
+        item14.innerHTML = `<img src="../itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
         item14.innerHTML += `<p>Frasco de líquido vermelho</p>`
     }
 
     if(i == 'amuleto 2'){
-        item15.innerHTML = `<img src="itens/segunda-parte/Amuleto 2.png" alt="" class="item"></img>`
+        item15.innerHTML = `<img src="../itens/segunda-parte/Amuleto 2.png" alt="" class="item"></img>`
         item15.innerHTML += `<p>Amuleto 2</p>`
     }
 
     if(i == 'cristal valioso'){
-        item16.innerHTML = `<img src="itens/segunda-parte/Cristal valioso.png" alt="" class="item">`
+        item16.innerHTML = `<img src="../itens/segunda-parte/Cristal valioso.png" alt="" class="item">`
         item16.innerHTML += `<p>Cristal Valioso</p>`
     }
 
     if(i == 'ruby'){
-        item17.innerHTML = `<img src="itens/segunda-parte/Ruby.png" alt="" class="item">`
+        item17.innerHTML = `<img src="../itens/segunda-parte/Ruby.png" alt="" class="item">`
         item17.innerHTML += `<p>Ruby</p>`
     }
 
     if(i == 'chave de setas 2'){
-        item18.innerHTML = `<img src="itens/segunda-parte/Chave de setas melhorada.png" alt="" class="item"></img>`
+        item18.innerHTML = `<img src="../itens/segunda-parte/Chave de setas melhorada.png" alt="" class="item"></img>`
         item18.innerHTML += `<p>Chave de Setas Melhorada</p>`
     }
 
     if(i == 'benelli'){
-        item20.innerHTML = `<img src="itens/segunda-parte/Shotgun Benelli M1014.png" alt="" class="item" style="width: 140px";></img>`
+        item20.innerHTML = `<img src="../itens/segunda-parte/Shotgun Benelli M1014.png" alt="" class="item" style="width: 140px";></img>`
         item20.innerHTML += `<p>Benelli M1014</p>`
 
     }
 
     if(i == 'amuleto valioso'){
-        item21.innerHTML = `<img src="itens/segunda-parte/amuleto valioso.png" alt="" class="item"></img>`
+        item21.innerHTML = `<img src="../itens/segunda-parte/amuleto valioso.png" alt="" class="item"></img>`
         item21.innerHTML += `<p>Amuleto Valioso</p>`
     }
 
     if(i == 'amuleto 1'){
-        item22.innerHTML = `<img src="itens/segunda-parte/Amuleto 1.png" alt="" class="item"></img>`
+        item22.innerHTML = `<img src="../itens/segunda-parte/Amuleto 1.png" alt="" class="item"></img>`
         item22.innerHTML += `<p>Amuleto 1</p>`
     }
 
     if(i == 'amuleto 3'){
-        item23.innerHTML = `<img src="itens/segunda-parte/Amuleto 3.png" alt="" class="item"></img>`
+        item23.innerHTML = `<img src="../itens/segunda-parte/Amuleto 3.png" alt="" class="item"></img>`
         item23.innerHTML += `<p>Amuleto 3</p>`
     }
 
@@ -123,7 +123,7 @@ function adicionaritem(){
         let soma = quant_fq + quantidade
         quant_fq = soma
 
-        item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
+        item4.innerHTML = `<img src="../itens/fluido-quimico.png" alt="" class="item">`
         item4.innerHTML += `<p>${quant_fq} Fluídos Químicos</p>`
     }
 
@@ -136,7 +136,7 @@ function adicionaritem(){
         let soma = quant_ervas + quantidade
         quant_ervas = soma
 
-        item5.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
+        item5.innerHTML = `<img src="../itens/ervas.png" alt="" class="item">`
         item5.innerHTML += `<p>${quant_ervas} Ervas</p>`
     }
 
@@ -149,7 +149,7 @@ function adicionaritem(){
         let soma = quant_cura + quantidade
         quant_cura = soma
 
-        item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
+        item6.innerHTML =  `<img src="../itens/cura.png" alt="" class="item">`
         item6.innerHTML += `<p>${quant_cura} Curas</p>`
     }
 
@@ -162,7 +162,7 @@ function adicionaritem(){
         let soma = quant_polvora + quantidade
         quant_polvora = soma
 
-        item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
+        item7.innerHTML = `<img src="../itens/polvora.png" alt="" class="item">`
         item7.innerHTML += `<p>${quant_polvora} Pólvoras</p>`
     }
 
@@ -175,7 +175,7 @@ function adicionaritem(){
             let soma = quant_muniçaop + quantidade
             quant_muniçaop = soma
 
-            item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
+            item8.innerHTML = `<img src="../itens/munição de pistola.png" alt="" class="item">`
             item8.innerHTML += `<p>${quant_muniçaop} Munições de pistola</p>`
             
     }
@@ -188,7 +188,7 @@ function adicionaritem(){
         let soma = quant_pano + quantidade
         quant_pano = soma
 
-        item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
+        item12.innerHTML = `<img src="../itens/pano.png" alt="" class="item">`
         item12.innerHTML += `<p>${quant_pano} Panos</p>`
         
     }
@@ -201,7 +201,7 @@ if(i == 'metal'){
     let soma = quant_metal + quantidade
     quant_metal = soma
 
-    item13.innerHTML = `<img src="itens/Metal.png" alt="" class="item">`
+    item13.innerHTML = `<img src="../itens/Metal.png" alt="" class="item">`
     item13.innerHTML += `<p>${quant_metal} Metais</p>`
     
 }
@@ -213,7 +213,7 @@ if(i == 'muniçao de shotgun'){
     let soma = quant_muniçaos + quantidade
     quant_muniçaos = soma
 
-    item19.innerHTML = `<img src="itens/munição de shotgun.png" alt="" class="item">`
+    item19.innerHTML = `<img src="../itens/munição de shotgun.png" alt="" class="item">`
     item19.innerHTML += `<p>${quant_muniçaos} Munição de Shotgun</p>`
 }
 
@@ -224,7 +224,7 @@ if(i == 'bandagem'){
     let soma = quant_bandagens + quantidade
     quant_bandagens = soma
 
-    item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
+    item24.innerHTML = `<img src="../itens/bandagem.png" alt="" class="item">`
     item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
 }
 
@@ -330,7 +330,7 @@ function tiraritem(){
         let subtração = quant_fq - quantidade
         quant_fq = subtração
 
-        item4.innerHTML = `<img src="itens/fluido-quimico.png" alt="" class="item">`
+        item4.innerHTML = `<img src="../itens/fluido-quimico.png" alt="" class="item">`
         item4.innerHTML += `<p>${quant_fq} Fluídos Químicos</p>`
 
         if(quant_fq == 0){
@@ -348,7 +348,7 @@ function tiraritem(){
         let subtração = quant_ervas - quantidade
         quant_ervas = subtração
 
-        item5.innerHTML = `<img src="itens/ervas.png" alt="" class="item">`
+        item5.innerHTML = `<img src="../itens/ervas.png" alt="" class="item">`
         item5.innerHTML += `<p>${quant_ervas} Ervas</p>`
 
         if(quant_ervas == 0){
@@ -365,7 +365,7 @@ if(i == 'cura'){
     let subtração = quant_cura - quantidade
     quant_cura = subtração
 
-    item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
+    item6.innerHTML =  `<img src="../itens/cura.png" alt="" class="item">`
     item6.innerHTML += `<p>${quant_cura} Curas</p>`
 
     if(quant_cura == 0){
@@ -384,7 +384,7 @@ if(i == 'cura'){
         let subtração = quant_polvora - quantidade
         quant_polvora = subtração
 
-        item7.innerHTML = `<img src="itens/polvora.png" alt="" class="item">`
+        item7.innerHTML = `<img src="../itens/polvora.png" alt="" class="item">`
         item7.innerHTML += `<p>${quant_polvora} Pólvoras</p>`
 
         if(quant_polvora == 0){
@@ -402,7 +402,7 @@ if(i == 'cura'){
         let subtração = quant_muniçaop - quantidade
         quant_muniçaop = subtração
 
-        item8.innerHTML = `<img src="itens/munição de pistola.png" alt="" class="item">`
+        item8.innerHTML = `<img src="../itens/munição de pistola.png" alt="" class="item">`
         item8.innerHTML += `<p>${quant_muniçaop} Munições de pistola</p>`
 
         if(quant_muniçaop == 0){
@@ -418,7 +418,7 @@ if(i == 'pano'){
     let subtração = quant_pano - quantidade
     quant_pano = subtração
 
-    item12.innerHTML = `<img src="itens/pano.png" alt="" class="item">`
+    item12.innerHTML = `<img src="../itens/pano.png" alt="" class="item">`
     item12.innerHTML += `<p>${quant_pano} Panos</p>`
 
     if(quant_pano == 0){
@@ -434,7 +434,7 @@ if(i == 'metal'){
     let subtração = quant_metal - quantidade
     quant_metal = subtração
 
-    item13.innerHTML = `<img src="itens/metal.png" alt="" class="item">`
+    item13.innerHTML = `<img src="../itens/metal.png" alt="" class="item">`
     item13.innerHTML += `<p>${quant_metal} Metais</p>`
 
     if(quant_metal == 0){
@@ -452,7 +452,7 @@ if(i == 'muniçao de shotgun'){
     let subtração = quant_muniçaos - quantidade
     quant_muniçaos = subtração
 
-    item19.innerHTML = `<img src="itens/munição de shotgun.png" alt="" class="item">`
+    item19.innerHTML = `<img src="../itens/munição de shotgun.png" alt="" class="item">`
     item19.innerHTML += `<p>${quant_muniçaos} Munição de Shotgun</p>`
 
     if(quant_muniçaos == 0){
@@ -468,7 +468,7 @@ if(i == 'bandagem'){
     let subtração = quant_bandagens - quantidade
     quant_bandagens = subtração
 
-    item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
+    item24.innerHTML = `<img src="../itens/bandagem.png" alt="" class="item">`
     item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
 
     if(quant_bandagens == 0){
@@ -738,5 +738,3 @@ function curas(){
         }
     }
 }
-
-
