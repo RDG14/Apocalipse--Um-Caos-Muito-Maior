@@ -1,6 +1,6 @@
-let quant_fq = 0 //FLUÍDO QUÍMICO
+let quant_fq = 1 //FLUÍDO QUÍMICO
 let quant_ervas = 0 //ERVAS
-let quant_cura = 0 //CURA
+let quant_cura = 3 //CURA
 let quant_polvora = 0 //PÓLVORA
 let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
 let quant_pano = 0 //PANO

@@ -1653,7 +1653,7 @@ function funçaoforça(){
 //Lutar
 
 let lutar = document.getElementById('lutar')
-let l = 7
+let l = 9
 lutar.innerHTML = `${l}`
 
 function funçaolutar(){

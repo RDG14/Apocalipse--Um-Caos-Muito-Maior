@@ -1,11 +1,11 @@
-let quant_fq = 2 //FLUÍDO QUÍMICO
-let quant_ervas = 1 //ERVAS
-let quant_cura = 1 //CURA
+let quant_fq = 3 //FLUÍDO QUÍMICO
+let quant_ervas = 0 //ERVAS
+let quant_cura = 5 //CURA
 let quant_polvora = 0 //PÓLVORA
-let quant_muniçaop = 5 //MUNIÇÃO DE PISTOLA
+let quant_muniçaop = 7 //MUNIÇÃO DE PISTOLA
 let quant_pano = 1 //PANO
 let quant_metal = 0 //METAL
-let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
+let quant_muniçaos = 8 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
 
 function adicionaritem(){

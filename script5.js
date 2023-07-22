@@ -1,7 +1,7 @@
 //Produção de Itens
 
 let produçaodt = document.getElementById('produçaodt')
-let pdt = 2
+let pdt = 4
 produçaodt.innerHTML = `${pdt}`
 
 function funçaoproduçaodt(){
