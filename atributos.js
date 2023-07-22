@@ -1,6 +1,6 @@
 let vida = document.getElementById('vida')
 let v = 89
-let vmx = 100
+let vmx = 110
 vida.innerHTML += `${v}/${vmx}`
 
 function funçaovida(){
