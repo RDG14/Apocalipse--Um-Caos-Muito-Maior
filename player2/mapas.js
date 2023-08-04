@@ -8,6 +8,10 @@ function adicionamapa(){
         mapa.innerHTML = ''
     }
 
+    if(m == 'casa 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 1/mapas iniciais/Primeira Casa/Casa Parte 1 - 1º andar.png" alt="">`
+    }
+
     if(m == 'mansao'){
         mapa.innerHTML =`<img src="../Mapas/parte 2/Mansão.png" alt="" class="mapa">`
     }
