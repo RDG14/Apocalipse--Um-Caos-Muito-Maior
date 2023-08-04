@@ -54,6 +54,10 @@ function adicionamapa(){
     if(m == 'casa 2'){
         mapa.innerHTML = `<img src="Mapas/parte 3/casa 2.png" alt="" class="mapa">`
     }
+
+    if(m == 'casa 3'){
+        mapa.innerHTML = `<img src="Mapas/parte 3/casa 3.png" alt="" class="mapa">`
+    }
     
     //CARTAS
 
@@ -88,6 +92,10 @@ function adicionamapa(){
 
 
     //ITENS NÃO PEGÁVEIS
+
+    if(m == 'livro'){
+        mapa.innerHTML = `<img src="Mapas/parte 3/Casa 3/livro.png" alt="" class="mapa">`
+    }
 
 
 
