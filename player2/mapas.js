@@ -8,10 +8,6 @@ function adicionamapa(){
         mapa.innerHTML = ''
     }
 
-    if(m == 'casa'){
-        mapa.innerHTML = `<img src="../Mapas/parte 2/Casa.png" alt="" class="mapa">`
-    }
-
     if(m == 'mansao'){
         mapa.innerHTML =`<img src="../Mapas/parte 2/Mansão.png" alt="" class="mapa">`
     }
@@ -24,13 +20,43 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 2/Mansão 2 andar.png" alt="" class="mapa">`
     }
 
-    if(m == 'mapa inicial'){
-        mapa.innerHTML = `<img src="../Mapas/parte 2/Mapa inicial.png" alt="" class="mapa">`
+    if(m == 'campo de batalha'){
+        mapa.innerHTML = `<img src="../Mapas/parte 2/Campo de Batalha 1.png" alt="" class="mapa">`
     }
 
-    if(m == 'galpao'){
-        mapa.innerHTML = `<img src="../Mapas/parte 2/Fundo do Galpão.png" alt="" class="mapa">`
+    if(m == 'campo de batalha 2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 2/Campo de Batalha 2.png" alt="" class="mapa">`
     }
+
+    if(m == 'campo de batalha 3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 2/Campo de Batalha 3.png" alt="" class="mapa">` 
+    }
+
+    if(m == 'celas'){
+        mapa.innerHTML = `<img src="../Mapas/parte 2/Celas.png" alt="" class="mapa">` 
+    }
+
+    if(m == 'mapa inicial 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/mapa inicial 1.png" alt="" class="mapa">` 
+    }
+
+    if(m == 'mapa inicial 2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/mapa inicial 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'mapa inicial 3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/mapa inicial 3.png" alt="" class="mapa">`
+    }
+
+    if(m == 'casa 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/casa 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'casa 2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/casa 2.png" alt="" class="mapa">`
+    }
+
+
 
     
     //CARTAS
@@ -49,70 +75,37 @@ function adicionamapa(){
         </section>`
     }
 
-    if(m == 'escrita do livro'){
-        mapa.innerHTML =
-        `<section style="text-align: justify; height: 500px;">
-            <p>Aquele ser misterioso vira para mim, olha no fundo dos meus olhos. </p>
-                
-            <p>Me sinto consumido por um medo enorme enquanto a criatura olha no fundo dos meus olhos, e me diz: <br> <br><strong>"Eu posso chegar cedo ou tarde, porém sou inevitável. EU SOU A MORTE!"</strong></p>
-
-            <p>Eu rapidamente sem pensar duas vezes me viro e começo a correr desesperadamente para a saída daquele prédio velho. Encontro minha irmã no meio de minha fuga, rapidamente grito para ela correr.</p>
-            
-            <p>E em desespero mútuo corremos rapidamente até a saída daquele prédio. Ao saírmos nos deparamos com a luz do sol, de forma que vimos que a criatura não saiu do prédio e apenas retornou ao mesmo com um olhar demoníaco.</p>
-        </section>`
-    }
-
-    if(m == 'carta do quarto'){
-        mapa.innerHTML = `<img src="../Mapas/parte 2/Carta do quarto da mansao.png" alt="" class="mapa">`
+    if(m == 'carta casa 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 1/Carta da cozinha.png" alt="" class="mapa">`
     }
 
 
     //PORTAS
 
+    if(m == 'bau'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 2/Baú.png" alt="" class="mapa">`
+    }
+
     if(m == 'porta 1'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/Porta do açougue.png" alt="" class="mapa">'
+        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 2/Porta do depósito.png" alt="" class="mapa">`
     }
-
-    if(m == 'porta 2'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/Porta do necrotério.png" alt="" class="mapa">'
-    }
-
-    if(m == 'necroterio'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/Necrotério.png" alt="" class="mapa">'
-    }
-
-    if(m == 'porta 3'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/porta da mansao-parte2.png" alt="" class="mapa">'
-    }
-
-    if(m == 'porta 4'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/porta saída da mansão.png" alt="" class="mapa">'
-    }
-
-    if(m == 'porta 5'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/sala de armas.png" alt="" class="mapa">'
-    }
-
-    if(m == 'porta 6'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/Porta do depósito.png" alt="" class="mapa">'
-    }
-
-    if(m == 'porta 7'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/porta da sala-sala de orgaos.png" alt="" class="mapa">'
-    }
-
 
     //ITENS NÃO PEGÁVEIS
 
-    if(m == 'livro'){
-        mapa.innerHTML = '<img src="../Mapas/parte 2/Livro-O Caos.png" alt="" class="mapa">'
-    }
+
 
 
     //MERCADOR
 
     if(m == 'mercador'){
-        mapa.innerHTML = `<iframe src="../mercador.html" frameborder="1" width="400px" height="400px"></iframe>`
+        mapa.innerHTML = `<iframe src="../Mercador/mercador.html" frameborder="1" width="400px" height="400px"></iframe>`
+    }
+
+
+    //CULTISTA
+
+    if(m == 'cultista'){
+        mapa.innerHTML = `<iframe src="Cultista/../Cultista/cultista.html" frameborder="1" width="400px" height="400px"></iframe>`
     }
 
 }

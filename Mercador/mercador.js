@@ -60,6 +60,11 @@ function melhoria2danoamt(){
     p.innerHTML = `${d} moedas`
 }
 
+function melhoria3danoamt(){
+    d = d-8000
+    p.innerHTML = `${d} moedas`
+}
+
 function cadenciadetiro(){
     d = d-8000
     p.innerHTML = `${d} moedas`
@@ -70,6 +75,56 @@ function frequenciadetiro(){
     p.innerHTML = `${d} moedas`
 }
 
+function carregadorestendido(){
+    d = d - 10000
+    p.innerHTML = `${d} moedas`
+}
+
+
+//Benelli
+
+function melhoriadanobenelli(){
+    d = d - 7000
+    p.innerHTML = `${d} moedas`
+}
+
+function melhoriadano2benelli(){
+    d = d - 10000
+    p.innerHTML = `${d} moedas`
+}
+
+function melhoriadano3benelli(){
+    d = d - 13000
+    p.innerHTML = `${d} moedas`
+}
+
+function melhoriadano4benelli(){
+    d = d - 18000
+    p.innerHTML = `${d} moedas`
+}
+
+function melhoriadano5benelli(){
+    d = d - 30000
+    p.innerHTML = `${d} moedas`
+}
+
+
+//Machado Elétrico
+
+function melhoriadanomachado(){
+    d = d - 5000
+    p.innerHTML = `${d} moedas`
+}
+
+function reforçoeletricidademachado(){
+    d = d - 8000
+    p.innerHTML = `${d} moedas`
+}
+
+function reforçoeletricidade2machado(){
+    d = d - 14000
+    p.innerHTML = `${d} moedas`
+}
 
 //MEDICINA
 

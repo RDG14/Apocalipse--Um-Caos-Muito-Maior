@@ -5,8 +5,10 @@ let quant_polvora = 0 //PÓLVORA
 let quant_muniçaop = 7 //MUNIÇÃO DE PISTOLA
 let quant_pano = 1 //PANO
 let quant_metal = 0 //METAL
-let quant_muniçaos = 8 //MUNIÇÃO DE SHOTGUN
+let quant_muniçaos = 4 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
+let quant_kitmedico = 1 //KIT MÉDICO
+let quant_granadas = 0 //GRANADAS
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -34,6 +36,12 @@ function adicionaritem(){
     let item22 = document.getElementById('itens22')
     let item23 = document.getElementById('itens23')
     let item24 = document.getElementById('itens24')
+    let item25 = document.getElementById('itens25')
+    let item26 = document.getElementById('itens26')
+    let item27 = document.getElementById('itens27')
+    let item28 = document.getElementById('itens28')
+    let item29 = document.getElementById('itens29')
+    let item30 = document.getElementById('itens30')
 
 
     if (i == 'faca'){
@@ -62,8 +70,22 @@ function adicionaritem(){
     }
 
     if(i == 'kit medico'){
-        item11.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
-        item11.innerHTML += `<p>Kit médico</p>`
+        let quantidade = Number(prompt('Quantas você pegou?'))
+        let soma = quant_kitmedico + quantidade
+        quant_kitmedico = soma
+
+        if(quant_kitmedico == 1){
+            item11.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
+            item11.innerHTML += `<p>Kit médico</p>`
+        }
+
+        if(quant_kitmedico == 2){
+            item11.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
+            item11.innerHTML += `<p>Kit médico</p>`
+
+            item22.innerHTML = `<img src="itens/kit medico.png" alt="" class="item">`
+            item22.innerHTML += `<p>Kit médico</p>`
+        }
     }
 
     if(i == 'frasco'){
@@ -71,9 +93,9 @@ function adicionaritem(){
         item14.innerHTML += `<p>Frasco de líquido vermelho</p>`
     }
 
-    if(i == 'amuleto 2'){
-        item15.innerHTML = `<img src="itens/segunda-parte/Amuleto 2.png" alt="" class="item"></img>`
-        item15.innerHTML += `<p>Amuleto 2</p>`
+    if(i == 'frasco de sangue'){
+        item15.innerHTML = `<img src="itens/segunda-parte/Frasco melhoria vida.png" alt="" class="item"></img>`
+        item15.innerHTML += `<p>Frasco de Sangue</p>`
     }
 
     if(i == 'cristal valioso'){
@@ -102,14 +124,19 @@ function adicionaritem(){
         item21.innerHTML += `<p>Amuleto Valioso</p>`
     }
 
-    if(i == 'amuleto 1'){
-        item22.innerHTML = `<img src="itens/segunda-parte/Amuleto 1.png" alt="" class="item"></img>`
-        item22.innerHTML += `<p>Amuleto 1</p>`
+    if(i == 'escudo'){
+        item25.innerHTML = `<img src="itens/parte 3/Escudo.png" alt="" class="item"></img>`
+        item25.innerHTML += `<p>Escudo</p>`
     }
 
-    if(i == 'amuleto 3'){
-        item23.innerHTML = `<img src="itens/segunda-parte/Amuleto 3.png" alt="" class="item"></img>`
-        item23.innerHTML += `<p>Amuleto 3</p>`
+    if(i == 'sniper'){
+        item26.innerHTML = `<img src="itens/parte 3/Sniper FN Ballista.png" alt="" class="item" style="width:210px";></img>`
+        item26.innerHTML += `<p>FN Ballista</p>`
+    }
+
+    if(i == 'cantil'){
+        item27.innerHTML = `<img src="itens/parte 3/Cantil.png" alt="" class="item"></img>`
+        item27.innerHTML += `<p>Cantil</p>`
     }
 
 
@@ -228,6 +255,17 @@ if(i == 'bandagem'){
     item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
 }
 
+//GRANADA
+
+if(i == 'granada'){
+    let quantidade = Number(prompt('Quantas granadas você pegou?'))
+    let soma = quant_granadas + quantidade
+    quant_granadas = soma
+
+    item23.innerHTML = `<img src="itens/Granadas.png" alt="" class="item">`
+    item23.innerHTML += `<p>${quant_granadas} Granadas</p>`
+}
+
 }
 
 
@@ -257,6 +295,12 @@ function tiraritem(){
     let item22 = document.getElementById('itens22')
     let item23 = document.getElementById('itens23')
     let item24 = document.getElementById('itens24')
+    let item25 = document.getElementById('itens25')
+    let item26 = document.getElementById('itens26')
+    let item27 = document.getElementById('itens27')
+    let item28 = document.getElementById('itens28')
+    let item29 = document.getElementById('itens29')
+    let item30 = document.getElementById('itens30')
 
     if(i == 'faca'){
         item1.innerHTML = ''
@@ -279,14 +323,23 @@ function tiraritem(){
     }
 
     if(i == 'kit medico'){
-        item11.innerHTML = ''
+
+        if(quant_kitmedico == 2){
+            item22.innerHTML = ''
+            quant_kitmedico = quant_kitmedico - 1
+        }
+
+        if(quant_kitmedico == 1){
+            item11.innerHTML = ''
+            quant_kitmedico = quant_kitmedico - 1
+        }
     }
 
     if(i == 'frasco'){
         item14.innerHTML = ''
     }
 
-    if(i == 'amuleto 2'){
+    if(i == 'frasco de sangue'){
         item15.innerHTML = ''
     }
 
@@ -309,18 +362,18 @@ function tiraritem(){
     if(i == 'amuleto valioso'){
         item21.innerHTML = ''
     }
-
-    if(i == 'amuleto 1'){
-        item22.innerHTML =  ''
-    }
-
-    if(i == 'amuleto 3'){
-        item23.innerHTML = ''
-    }
-
-
-
     
+    if(i == 'escudo'){
+        item25.innerHTML = ''
+    }
+
+    if(i == 'sniper'){
+        item26.innerHTML = ''
+    }
+
+    if(i == 'cantil'){
+        item27.innerHTML = ''
+    }
 
 //FLUÍDO QUÍMICO
 
@@ -476,6 +529,24 @@ if(i == 'bandagem'){
     }
 }
 
+//GRANADA
+
+if(i == 'granada'){
+    let quantidade = prompt('Quantas granadas você usou?')
+
+    let subtração = quant_granadas - quantidade
+    quant_granadas = subtração
+
+    item23.innerHTML = `<img src="itens/Granadas.png" alt="" class="item">`
+    item23.innerHTML += `<p>${quant_granadas} Granadas</p>`
+
+    if(quant_granadas == 0){
+        item23.innerHTML = ''
+    }
+}
+
+
+
 
 }
 
@@ -551,15 +622,19 @@ function dano(){
 
         let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
         let n = Math.floor(Math.random() * 20)
-        n = n + 1
+        n++
 
         n2 = Math.floor(Math.random() * 5)
         n2++
 
-        alert(`d20 = ${n}`)
-        alert(`d6 = ${n2}`)
+        let soma = n + n2
 
-        n = n + n2
+        if(melhoria == true){
+            alert(`d20 = ${n}`)
+            alert(`d6 = ${n2}`)
+            alert(`${soma} de dano`)
+
+        }
 
         if(melhoria == false){
             let m = prompt('Qual melhoria?')
@@ -568,24 +643,46 @@ function dano(){
                 let quantidade = Number(prompt('Quantas?'))
 
                 n = n + quantidade
+
+                alert(`d20 + ${quantidade} = ${n}`)
+                alert(`d6 = ${n2}`)
+                alert(`${soma} de dano`)
+
             }
 
             if(m == 'dano 2'){
                 let quantidade = Number(prompt('Quantas?'))
 
-                n2 = Math.floor(Math.random() * 5 * quantidade)
-                n2++
+                n3 = Math.floor(Math.random() * 5 * quantidade)
+                n3 += quantidade 
 
                 alert(`d20 = ${n}`)
-                alert(`${quantidade}d6 = ${n2}`)
+                alert(`d6 = ${n2}`)
+                alert(`${quantidade}d6 = ${n3}`)
 
-                n = n + n2
+                soma = soma + n3
+
+                alert(`${soma} de dano`)
                 
+            }
+
+            if(m == 'dano 3'){
+                let quantidade = Number(prompt('Quantas?'))
+
+                n3 = Math.floor(Math.random() * 8 * quantidade)
+                n3 += quantidade 
+
+                alert(`d20 = ${n}`)
+                alert(`d6 = ${n2}`)
+                alert(`${quantidade}d8 = ${n3}`)
+
+                soma = soma + n3
+
+                alert(`${soma} de dano`)
             }
 
         }
 
-        alert(`${n} de dano`)
 
     }
 
@@ -605,6 +702,21 @@ function dano(){
         alert(`${soma} de dano`)
     }
 
+    if(d == 'd5'){ //FN Ballista
+        let n = Math.floor(Math.random() * 20 + 1)
+        let n2 = Math.floor(Math.random() * 20 + 1)
+        let n3 = Math.floor(Math.random() * 20 + 1)
+        let n4 = Math.floor(Math.random() * 12 + 1)
+        let soma = n + n2 + n3 + n4
+
+        alert(`d20 = ${n}`)
+        alert(`d20 = ${n2}`)
+        alert(`d20 = ${n3}`)
+        alert(`d12 = ${n4}`)
+        alert(`${soma} de dano`)
+    } 
+
+
 }
 
 function curas(){
@@ -612,131 +724,241 @@ function curas(){
     let item11= document.getElementById('itens11')
     let item24 = document.getElementById('itens24')
 
-    let cura = prompt('Qual item você quer usar para curar.')
 
-    if(cura == 'cura'){
-        if(quant_cura == 0){
-            alert('Você não tem cura para usar')
-        }
+    let confirmaçao = confirm('OK para usar a cura em você. CANCELAR para usar a cura em outra.')
 
-        else{
-            let dado20 = Math.floor(Math.random() * 20)
-            dado20 ++
-            let dado12 = Math.floor(Math.random() * 12)
-            dado12 ++
-    
-            let soma = dado20 + dado12
-    
-            alert(`${dado20} + ${dado12} = ${soma}`)
-    
-            quant_cura = quant_cura - 1
-            item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
-            item6.innerHTML += `<p>${quant_cura} Curas</p>`
-        
+    if(confirmaçao == true){
+        let cura = prompt('Qual item você quer usar para curar.')
+
+        if(cura == 'cura'){
             if(quant_cura == 0){
-                item6.innerHTML = ''
+                alert('Você não tem cura para usar')
             }
     
-            v = v + soma
-            vida.innerHTML = `Vida: ${v}/${vmx}`
-    
-            if(v > 100){
-                v = 100
-                vida.innerHTML = `Vida: ${v}/${vmx}`
-            }
-        }
-    }
-
-    if(cura == 'kit medico'){
-        let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
-
-        if(atributo == true){
-            let dado20 = Math.floor(Math.random() * 20)
-            dado20 ++
-            let dado12 = Math.floor(Math.random() * 12)
-            dado12 ++
-    
-            let soma1 = dado20 + dado12
-
-            let dado20_2 = Math.floor(Math.random() * 20)
-            dado20_2 ++
-            let dado12_2 = Math.floor(Math.random() * 12)
-            dado12_2 ++
-
-            let soma2 = dado20_2 + dado12_2
-
-            if(soma1 > soma2){
-                alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
-                v = v + soma1
-                vida.innerHTML = `Vida: ${v}/${vmx}`
-            } 
+            else{
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma = dado20 + dado12
+        
+                alert(`${dado20} + ${dado12} = ${soma}`)
+        
+                quant_cura = quant_cura - 1
+                item6.innerHTML =  `<img src="../itens/cura.png" alt="" class="item">`
+                item6.innerHTML += `<p>${quant_cura} Curas</p>`
             
-            else if(soma1 < soma2){
-                alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
-                v = v + soma2
+                if(quant_cura == 0){
+                    item6.innerHTML = ''
+                }
+        
+                v = v + soma
                 vida.innerHTML = `Vida: ${v}/${vmx}`
+        
+                if(v > 100){
+                    v = 100
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                }
             }
-
-            if(v > 100){
-                v = 100
-                vida.innerHTML = `Vida: ${v}/${vmx}`
-            }
-
-            item11.innerHTML = ''
         }
-
-        else{
-            let dado20 = Math.floor(Math.random() * 20)
-            dado20 ++
-            let dado12 = Math.floor(Math.random() * 12)
-            dado12 ++
     
-            let soma1 = dado20 + dado12
-
-            alert(`${dado20} + ${dado12} = ${soma1}`)
-
-            v = v + soma1
-            vida.innerHTML = `Vida: ${v}/100`
-
-            if(v > 100){
-                v = 100
-                vida.innerHTML = `Vida: ${v}/${vmx}`
+        if(cura == 'kit medico'){
+            let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
+    
+            if(atributo == true){
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma1 = dado20 + dado12
+    
+                let dado20_2 = Math.floor(Math.random() * 20)
+                dado20_2 ++
+                let dado12_2 = Math.floor(Math.random() * 12)
+                dado12_2 ++
+    
+                let soma2 = dado20_2 + dado12_2
+    
+                if(soma1 > soma2){
+                    alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
+                    v = v + soma1
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                } 
+                
+                else if(soma1 < soma2){
+                    alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
+                    v = v + soma2
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                }
+    
+                if(v > 100){
+                    v = 100
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                }
+    
+                item11.innerHTML = ''
             }
-
-            item11.innerHTML = ''
+    
+            else{
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma1 = dado20 + dado12
+    
+                alert(`${dado20} + ${dado12} = ${soma1}`)
+    
+                v = v + soma1
+                vida.innerHTML = `Vida: ${v}/100`
+    
+                if(v > 100){
+                    v = 100
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                }
+    
+                item11.innerHTML = ''
+            }
         }
-    }
-
-    if(cura == 'bandagem'){
-
-        if(quant_bandagens == 0){
-            alert('Você não tem bandagens para usar')
-        }
-
-        else{
-            let dado6 = Math.floor(Math.random()*6)
-            dado6++
-
-            alert(`d6 = ${dado6}`)
-
-            v = v + dado6
-
-            vida.innerHTML = `Vida: ${v}/${vmx}`
-
-            quant_bandagens = quant_bandagens - 1
-
-            item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
-            item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
-
+    
+        if(cura == 'bandagem'){
+    
             if(quant_bandagens == 0){
-                item24.innerHTML = ''
+                alert('Você não tem bandagens para usar')
             }
-
-            if(v >= 100){
-                v = 100
+    
+            else{
+                let dado6 = Math.floor(Math.random()*6)
+                dado6++
+    
+                alert(`d6 = ${dado6}`)
+    
+                v = v + dado6
+    
+                vida.innerHTML = `Vida: ${v}/${vmx}`
+    
+                quant_bandagens = quant_bandagens - 1
+    
+                item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
+                item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
+    
+                if(quant_bandagens == 0){
+                    item24.innerHTML = ''
+                }
+    
+                if(v >= 100){
+                    v = 100
+                }
             }
         }
     }
+
+    else{
+        let cura = prompt('Qual item você quer usar para curar.')
+
+        if(cura == 'cura'){
+            if(quant_cura == 0){
+                alert('Você não tem cura para usar')
+            }
+    
+            else{
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma = dado20 + dado12
+        
+                alert(`${dado20} + ${dado12} = ${soma}`)
+        
+                quant_cura = quant_cura - 1
+                item6.innerHTML =  `<img src="itens/cura.png" alt="" class="item">`
+                item6.innerHTML += `<p>${quant_cura} Curas</p>`
+            
+                if(quant_cura == 0){
+                    item6.innerHTML = ''
+                }
+        
+                v = v + soma
+                vida.innerHTML = `Vida: ${v}/${vmx}`
+        
+                if(v > 100){
+                    v = 100
+                    vida.innerHTML = `Vida: ${v}/${vmx}`
+                }
+            }
+        }
+    
+        if(cura == 'kit medico'){
+            let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
+    
+            if(atributo == true){
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma1 = dado20 + dado12
+    
+                let dado20_2 = Math.floor(Math.random() * 20)
+                dado20_2 ++
+                let dado12_2 = Math.floor(Math.random() * 12)
+                dado12_2 ++
+    
+                let soma2 = dado20_2 + dado12_2
+    
+                if(soma1 > soma2){
+                    alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
+                } 
+                
+                else if(soma1 < soma2){
+                    alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
+                }
+    
+    
+                item11.innerHTML = ''
+            }
+    
+            else{
+                let dado20 = Math.floor(Math.random() * 20)
+                dado20 ++
+                let dado12 = Math.floor(Math.random() * 12)
+                dado12 ++
+        
+                let soma1 = dado20 + dado12
+    
+                alert(`${dado20} + ${dado12} = ${soma1}`)
+    
+                item11.innerHTML = ''
+            }
+        }
+    
+        if(cura == 'bandagem'){
+    
+            if(quant_bandagens == 0){
+                alert('Você não tem bandagens para usar')
+            }
+    
+            else{
+                let dado6 = Math.floor(Math.random()*6)
+                dado6++
+    
+                alert(`d6 = ${dado6}`)
+    
+                quant_bandagens = quant_bandagens - 1
+    
+                item24.innerHTML = `<img src="itens/bandagem.png" alt="" class="item">`
+                item24.innerHTML += `<p>${quant_bandagens} Bandagens</p>`
+    
+                if(quant_bandagens == 0){
+                    item24.innerHTML = ''
+                }
+            }
+        }
+    }
+
 }
 
 
