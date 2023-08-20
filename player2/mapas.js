@@ -135,7 +135,7 @@ function adicionamapa(){
     //CULTISTA
 
     if(m == 'cultista'){
-        mapa.innerHTML = `<iframe src="Cultista/../Cultista/cultista.html" frameborder="1" width="400px" height="400px"></iframe>`
+        mapa.innerHTML = `<iframe src="../Cultista/cultista.html" frameborder="1" width="400px" height="400px"></iframe>`
     }
 
 }
