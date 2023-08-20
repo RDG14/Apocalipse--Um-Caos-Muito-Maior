@@ -6629,7 +6629,7 @@ function funçaobestas(){
 //Explosivos
 
 let explosivos = document.getElementById('explosivos')
-let exp = 9
+let exp = 8
 explosivos.innerHTML = `${exp}`
 
 function funçaoexplosivos(){

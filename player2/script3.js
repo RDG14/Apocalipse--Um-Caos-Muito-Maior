@@ -1,7 +1,7 @@
 //Luta pela Vida
 
 let lutapv = document.getElementById('lutapv')
-let lpv = 5
+let lpv = 6
 lutapv.innerHTML = `${lpv}`
 
 function funçaolutapv(){
