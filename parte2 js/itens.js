@@ -756,8 +756,8 @@ function curas(){
                 v = v + soma
                 vida.innerHTML = `Vida: ${v}/${vmx}`
         
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
             }
@@ -793,8 +793,8 @@ function curas(){
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
@@ -814,8 +814,8 @@ function curas(){
                 v = v + soma1
                 vida.innerHTML = `Vida: ${v}/100`
     
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
@@ -848,8 +848,8 @@ function curas(){
                     item24.innerHTML = ''
                 }
     
-                if(v >= 100){
-                    v = 100
+                if(v >= vmx){
+                    v = vmx
                 }
             }
         }
@@ -884,8 +884,8 @@ function curas(){
                 v = v + soma
                 vida.innerHTML = `Vida: ${v}/${vmx}`
         
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
             }

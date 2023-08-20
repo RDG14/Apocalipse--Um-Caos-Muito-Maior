@@ -259,10 +259,6 @@ if(i == 'granada'){
 
 }
 
-
-
-
-
 function tiraritem(){
     let i = prompt('Tire o item')
     let item1 = document.getElementById('itens1')
@@ -710,8 +706,8 @@ function curas(){
                 v = v + soma
                 vida.innerHTML = `Vida: ${v}/${vmx}`
         
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
             }
@@ -747,8 +743,8 @@ function curas(){
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
@@ -768,8 +764,8 @@ function curas(){
                 v = v + soma1
                 vida.innerHTML = `Vida: ${v}/100`
     
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
     
@@ -802,8 +798,8 @@ function curas(){
                     item24.innerHTML = ''
                 }
     
-                if(v >= 100){
-                    v = 100
+                if(v >= vmx){
+                    v = vmx
                 }
             }
         }
@@ -838,8 +834,8 @@ function curas(){
                 v = v + soma
                 vida.innerHTML = `Vida: ${v}/${vmx}`
         
-                if(v > 100){
-                    v = 100
+                if(v > vmx){
+                    v = vmx
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
             }
@@ -923,14 +919,14 @@ function habilidade(){
         let n = Math.floor(Math.random() * 100)
         n++
 
-        if(n > 50){
+        if(n > 70){
             alert(`${n} = Recupera toda vida`)
             v = vmx
 
             vida.innerHTML = `Vida: ${v}/${vmx}`
         }
 
-        if(n <= 50){
+        if(n <= 70){
             alert(`${n} = Recupera vida parcial`)
             let v1 = Math.floor(Math.random() * 20)
             let v2 = Math.floor(Math.random() * 20)

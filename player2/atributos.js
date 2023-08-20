@@ -1,6 +1,6 @@
 let vida = document.getElementById('vida')
 let v = 89
-let vmx = 110
+let vmx = 100
 vida.innerHTML += `${v}/${vmx}`
 
 function funçaovida(){
@@ -46,8 +46,12 @@ function funçaovida(){
 
 
 let sanidade = document.getElementById('sanidade')
+let pontosanidade = document.getElementById('pontossanidade')
 let s = 84
-sanidade.innerHTML += `${s}/100`
+let smx = 100
+sanidade.innerHTML += `${s}/${smx}`
+let pontos_sanidade = 30
+pontossanidade.innerHTML += `${pontos_sanidade}`
 
 function funçaosanidade(){
     let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade atual')
@@ -91,18 +95,18 @@ function funçaosanidade(){
         }
     }
 
-    else{
+    if(escolha == false){
         let n = Math.floor(Math.random() * 101)
 
         if(n == 0){
             n = 1
         }
 
-        if(n > s){
+        if(n >= pontos_sanidade){
             alert(`${n} = fracasso`)
         }
 
-        if(n < s){
+        if(n < pontos_sanidade){
             alert(`${n} = sucesso`)
         }
     }

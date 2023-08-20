@@ -8,10 +8,6 @@ function adicionamapa(){
         mapa.innerHTML = ''
     }
 
-    if(m == 'casa 1'){
-        mapa.innerHTML = `<img src="../Mapas/parte 1/mapas iniciais/Primeira Casa/Casa Parte 1 - 1º andar.png" alt="">`
-    }
-
     if(m == 'mansao'){
         mapa.innerHTML =`<img src="../Mapas/parte 2/Mansão.png" alt="" class="mapa">`
     }
@@ -64,6 +60,22 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 3/casa 3.png" alt="" class="mapa">`
     }
 
+    if(m == 'casa 4'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/casa 4.png" alt="" class="mapa">`
+    }
+
+    if(m == 'casa 5'){ 
+        mapa.innerHTML = `<img src="../Mapas/parte 3/casa 5.png" alt="" class="mapa">`
+    }
+
+    if(m == 'casa 6'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/casa 6.png" alt="" class="mapa">`
+    }
+
+    if(m == 'igreja'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/igreja.png" alt="" class="mapa">`
+    }
+
 
     
     //CARTAS
@@ -86,6 +98,10 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 1/Carta da cozinha.png" alt="" class="mapa">`
     }
 
+    if(m == 'carta casa 4'){
+        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 4/Carta do escritório.png" alt="" class="mapa">`
+    }
+
 
     //PORTAS
 
@@ -96,6 +112,11 @@ function adicionamapa(){
     if(m == 'porta 1'){
         mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 2/Porta do depósito.png" alt="" class="mapa">`
     }
+
+    if(m == 'porta 2'){ //casa 5
+        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 5/Porta de caveira.png" alt="" class="mapa">`
+    }
+
 
     //ITENS NÃO PEGÁVEIS
 

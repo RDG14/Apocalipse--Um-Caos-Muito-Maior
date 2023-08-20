@@ -46,11 +46,15 @@ function funçaovida(){
 
 
 let sanidade = document.getElementById('sanidade')
+let pontosanidade = document.getElementById('pontossanidade')
 let s = 84
-sanidade.innerHTML += `${s}/100`
+let smx = 100
+sanidade.innerHTML += `${s}/${smx}`
+let pontos_sanidade = 40
+pontossanidade.innerHTML += `${pontos_sanidade}`
 
 function funçaosanidade(){
-    let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade atual')
+    let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade máxima')
     let escolha = confirm('OK para adicionar ou tirar sanidade. CANCELAR para rolar dado de sanidade.')
 
     if(confirmação == true){
@@ -91,18 +95,18 @@ function funçaosanidade(){
         }
     }
 
-    else{
+        if(escolha == false){
         let n = Math.floor(Math.random() * 101)
 
         if(n == 0){
             n = 1
         }
 
-        if(n > s){
+        if(n >= pontos_sanidade){
             alert(`${n} = fracasso`)
         }
 
-        if(n < s){
+        if(n < pontos_sanidade){
             alert(`${n} = sucesso`)
         }
     }
