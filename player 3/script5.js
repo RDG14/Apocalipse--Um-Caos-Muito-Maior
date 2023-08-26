@@ -4953,11 +4953,11 @@ function funçaonataçao(){
 
 //Reflexo
 
-let reflexo = document.getElementeById('reflexo')
+let reflexo = document.getElementById('reflexo')
 let ref = 8
 reflexo.innerHTML = `${ref}`
 
-function funçaoreflexo(){
+function freflexo(){
     
 
     let n = Math.floor(Math.random() * 20)
