@@ -50,11 +50,11 @@ let pontosanidade = document.getElementById('pontossanidade')
 let s = 100
 let smx = 100
 sanidade.innerHTML += `${s}/${smx}`
-let pontos_sanidade = 40
+let pontos_sanidade = 30
 pontosanidade.innerHTML += `${pontos_sanidade}`
 
 function funçaosanidade(){
-    let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade atual')
+    let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade máxima')
     let escolha = confirm('OK para adicionar ou tirar sanidade. CANCELAR para rolar dado de sanidade.')
 
     if(confirmação == true){
@@ -75,10 +75,12 @@ function funçaosanidade(){
                 sanidade.innerHTML = `Sanidade: ${s}/${smx}`
             }
         }
-
-        if(confirmação == false){
-            let incremento = confirm('Aperte OK para adicionar e CANCELAR para tirar')
+    }
     
+    if(confirmação == false){
+        if(escolha == true){
+            let incremento = confirm('Aperte OK para adicionar e CANCELAR para tirar')
+
             if(incremento == true){
                 let n = Number(prompt('Digite o valor a ser adicionado: '))
                 let soma = smx + n
@@ -96,11 +98,7 @@ function funçaosanidade(){
     }
 
     if(escolha == false){
-        let n = Math.floor(Math.random() * 101)
-
-        if(n == 0){
-            n = 1
-        }
+        let n = Math.floor(Math.random() * 100 + 1)
 
         if(n >= pontos_sanidade){
             alert(`${n} = fracasso`)
@@ -113,7 +111,7 @@ function funçaosanidade(){
 }
 
 let pontosdeesforço = document.getElementById('pontosdeesforço')
-let pontos_de_esforço = 25
+let pontos_de_esforço = 30
 pontosdeesforço.innerHTML += `${pontos_de_esforço}`
 
 pontosdeesforço.addEventListener('click', function(){
