@@ -50,8 +50,8 @@ let pontosanidade = document.getElementById('pontossanidade')
 let s = 100
 let smx = 100
 sanidade.innerHTML += `${s}/${smx}`
-let pontos_sanidade = 20
-pontossanidade.innerHTML += `${pontos_sanidade}`
+let pontos_sanidade = 40
+pontosanidade.innerHTML += `${pontos_sanidade}`
 
 function funçaosanidade(){
     let confirmação = confirm('OK para mexer na sanidade atual. CANCELAR para mexer na sanidade atual')
@@ -111,3 +111,24 @@ function funçaosanidade(){
         }
     }
 }
+
+let pontosdeesforço = document.getElementById('pontosdeesforço')
+let pontos_de_esforço = 25
+pontosdeesforço.innerHTML += `${pontos_de_esforço}`
+
+pontosdeesforço.addEventListener('click', function(){
+    let escolha = confirm('Aperte "OK" para adicionar e "CANCELAR" para tirar')
+
+    if(escolha == true){
+        let n = Number(prompt('Quantos pontos de esforço você recebeu?'))
+        let soma = pontos_de_esforço + n
+        pontos_de_esforço = soma
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+
+    } else{
+        let n = Number(prompt('Quantos pontos de esforço você usou?'))
+        let subtração = pontos_de_esforço - n
+        pontos_de_esforço = subtração
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+    }
+})

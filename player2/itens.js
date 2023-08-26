@@ -952,6 +952,10 @@ function habilidade(){
         s1++
 
         alert(`Você perde ${s1} de sanidade`)
+        alert(`Você perde 3 de esforço`)
+
+        pontos_de_esforço -= 3
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
 
         s = s - s1
         sanidade.innerHTML = `Sanidade: ${s}/${smx}`

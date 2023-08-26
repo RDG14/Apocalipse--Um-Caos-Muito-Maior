@@ -40,24 +40,9 @@ function adicionaritem(){
     let item26 = document.getElementById('itens26')
 
 
-    if (i == 'machado'){
-        item1.innerHTML += `<img src="../itens/segunda-parte/Machado.png" alt="" class="item" id="faca">`
-        item1.innerHTML += `<p>Machado</p>`
-    }
-
-    if (i == 'lanterna'){
-        item2.innerHTML += `<img src="../itens/primeira-parte/lanterna.png" alt="" class="item">`
-        item2.innerHTML += `<p>Lanterna</p>`
-    }
-
-    if(i == 'foto de familia'){
-        item3.innerHTML += `<img src="../itens/primeira-parte/foto-da-familia.png" alt="" class="item">`
-        item3.innerHTML += `<p>Foto de Família</p>`
-    }
-
     if(i == 'pistola'){
-        item9.innerHTML += `<img src="../itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
-        item9.innerHTML += `<p>Pistola</p>`
+        item1.innerHTML += `<img src="../itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
+        item1.innerHTML += `<p>Pistola</p>`
     }
 
     if(i == 'frasco 2'){
@@ -288,20 +273,9 @@ function tiraritem(){
     let item25 = document.getElementById('itens25')
     let item26 = document.getElementById('itens26')
 
-    if(i == 'faca'){
+
+    if(i == 'pistola'){
         item1.innerHTML = ''
-    }
-
-    if(i == 'lanterna'){
-        item2.innerHTML = ''
-    }
-
-    if(i == 'foto de familia'){
-        item3.innerHTML = ''
-    }
-
-    if(i == 'amt hardballer'){
-        item9.innerHTML = ''
     }
 
     if(i == 'frasco 2'){
@@ -563,9 +537,9 @@ function dano(){
         }
     }
 
-    if(d == 'd2'){ //Machado
+    if(d == 'd2'){ //Pistola
         let n = Math.floor(Math.random() * 12)
-        let n2 = Math.floor(Math.random() * 4)
+        let n2 = Math.floor(Math.random() * 8)
         n++
         n2++
         let soma = n + n2
@@ -575,97 +549,6 @@ function dano(){
         alert(`${soma} de dano`)
 
 
-    }
-
-    if(d == 'd3'){ //ASP 9
-
-        let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
-        let n = Math.floor(Math.random() * 12)
-        let n2 = Math.floor(Math.random() * 8)
-        let n3 = Math.floor(Math.random() * 6)
-        n++
-        n2++
-        n3++
-
-        let soma = n + n2 + n3
-
-
-
-        if(melhoria == false){
-            let m = prompt('Qual melhoria?')
-
-            if(m == 'dano'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n = n + quantidade
-
-                alert(`d20 + ${quantidade} = ${n}`)
-                alert(`d6 = ${n2}`)
-                alert(`${soma} de dano`)
-            }
-
-            if(m == 'dano 2'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n4 = Math.floor(Math.random() * 6 * quantidade)
-                n4++
-                n4 += quantidade
-
-                alert(`d12 = ${n}`)
-                alert(`d8 = ${n2}`)
-                alert(`d6 = ${n3}`)
-                alert(`${quantidade}d6 = ${n4}`)
-
-                soma = soma + n4
-
-                alert(`${soma} de dano`)
-                
-            }
-
-            if(m == 'dano 3'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n4 = Math.floor(Math.random() * 8 * quantidade)
-                n4++
-                n4 += quantidade
-
-                alert(`d12 = ${n}`)
-                alert(`d8 = ${n2}`)
-                alert(`d6 = ${n3}`)
-                alert(`${quantidade}d8 = ${n4}`)
-
-                soma = soma + n4
-
-                alert(`${soma} de dano`)
-            }
-
-        }
-
-        if(melhoria == true){
-            alert(`d12 = ${n}`)
-            alert(`d8 = ${n2}`)
-            alert(`d6 = ${n3}`)
-            alert(`${soma} de dano`)
-        }
-
-
-
-    }
-
-    if(d == 'd4'){ //Banelli M1014
-        let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
-        let n = Math.floor(Math.random() * 20 + 1)
-        let n2 = Math.floor(Math.random() * 20 + 1)
-        let n3 = Math.floor(Math.random() * 8 + 1)
-        let soma = n + n2 + n3
-
-        if(melhoria == true){
-            alert(`d20 = ${n}`)
-            alert(`d20 = ${n2}`)
-            alert(`d8 = ${n3}`)
-        }
-        
-        alert(`${soma} de dano`)
     }
 
 }

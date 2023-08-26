@@ -111,3 +111,24 @@ function funçaosanidade(){
         }
     }
 }
+
+let pontosdeesforço = document.getElementById('pontosdeesforço')
+let pontos_de_esforço = 40
+pontosdeesforço.innerHTML += `${pontos_de_esforço}`
+
+pontosdeesforço.addEventListener('click', function(){
+    let escolha = confirm('Aperte "OK" para adicionar e "CANCELAR" para tirar')
+
+    if(escolha == true){
+        let n = Number(prompt('Quantos pontos de esforço você recebeu?'))
+        let soma = pontos_de_esforço + n
+        pontos_de_esforço = soma
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+
+    } else{
+        let n = Number(prompt('Quantos pontos de esforço você usou?'))
+        let subtração = pontos_de_esforço - n
+        pontos_de_esforço = subtração
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+    }
+})
