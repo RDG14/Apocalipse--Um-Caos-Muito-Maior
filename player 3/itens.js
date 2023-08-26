@@ -1,11 +1,11 @@
 let quant_fq = 1 //FLUÍDO QUÍMICO
-let quant_ervas = 0 //ERVAS
-let quant_cura = 3 //CURA
+let quant_ervas = 1 //ERVAS
+let quant_cura = 0 //CURA
 let quant_polvora = 0 //PÓLVORA
-let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
+let quant_muniçaop = 1 //MUNIÇÃO DE PISTOLA
 let quant_pano = 0 //PANO
 let quant_metal = 0 //METAL
-let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
+let quant_muniçaos = 2 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
 let quant_kitmedico = 0 //KIT MÉDICO
 let quant_granadas = 0 //GRANADAS
@@ -539,7 +539,7 @@ function dano(){
 
     if(d == 'd2'){ //Pistola
         let n = Math.floor(Math.random() * 12)
-        let n2 = Math.floor(Math.random() * 8)
+        let n2 = Math.floor(Math.random() * 4)
         n++
         n2++
         let soma = n + n2
