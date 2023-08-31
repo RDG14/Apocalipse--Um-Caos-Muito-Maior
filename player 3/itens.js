@@ -9,6 +9,7 @@ let quant_muniçaos = 2 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
 let quant_kitmedico = 0 //KIT MÉDICO
 let quant_granadas = 0 //GRANADAS
+let quant_muniçao_sniper = 0 //MUNIÇÃO DE SNIPER
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -115,6 +116,18 @@ function adicionaritem(){
         item26.innerHTML += `<p>FN Ballista</p>`
     }
 
+
+//MUNIÇÃO DE SNIPER
+
+    if(i == 'muniçao de sniper'){
+
+        let quantidade = Number(prompt('Quantas munições você pegou?'))
+        let soma = quant_muniçao_sniper + quantidade
+        quant_muniçao_sniper = soma
+
+        item2.innerHTML = `<img src="../itens/munição de sniper.png" alt="" class="item">`
+        item2.innerHTML += `<p>${quant_muniçao_sniper} Munições de Sniper</p>`
+    }
 
 //FLUÍDO QUÍMICO
 
@@ -331,6 +344,23 @@ function tiraritem(){
         item26.innerHTML = ''
     }
     
+
+//MUNIÇÃO DE SNIPER
+
+if(i == 'muniçao de sniper'){
+    let quantidade = prompt('Quantas munições você usou?')
+
+    let subtração = quant_muniçao_sniper - quantidade
+    quant_muniçao_sniper = subtração
+
+    item2.innerHTML = `<img src="../itens/munição de sniper.png" alt="" class="item">`
+    item2.innerHTML += `<p>${quant_muniçao_sniper} Munições de Sniper</p>`
+
+    if(quant_muniçao_sniper == 0){
+        item2.innerHTML = ''
+    }
+    
+}
 
 //FLUÍDO QUÍMICO
 
@@ -549,6 +579,19 @@ function dano(){
         alert(`${soma} de dano`)
 
 
+    }
+
+    if(d == 'd4'){ //Banelli M1014
+        let n = Math.floor(Math.random() * 20 + 1)
+        let n2 = Math.floor(Math.random() * 20 + 1)
+        let n3 = Math.floor(Math.random() * 8 + 1)
+        let soma = n + n2 + n3
+
+        alert(`d20 = ${n}`)
+        alert(`d20 = ${n2}`)
+        alert(`d8 = ${n3}`)
+        
+        alert(`${soma} de dano`)
     }
 
 }

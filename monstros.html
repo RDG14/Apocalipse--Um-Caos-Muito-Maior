@@ -1,27 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apocalipse: Um caos muito maior</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Monstros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <img src="João.jpeg" alt="" id="imagemjoao">
-        <p id="vida" onclick="funçaovida()">Vida: </p>
-        <p id="sanidade" onclick="funçaosanidade()">Sanidade: </p>
-        <p id="pontossanidade">Pontos de Sanidade: </p>
-        <p id="pontosdeesforço">Pontos de Esforço: </p>
-    </div>
-
-    <div id="mapas">
-
-    </div>
-
-    <input type="button" value="Mapas e cartas" onclick="adicionamapa()" id="botaomapa">
-
-    <br>
+    <h1 onclick="monstro()">Monstro 1</h1>
 
     <div>
         
@@ -154,121 +140,11 @@
                 <td class="valor" id="nataçao"></td>
             </tr>
 
-            <tr>
-                <td onclick="funçaodesvioaliado()">Desvio Aliado</td>
-                <td class="valor" id="desvioaliado"></td>
-            </tr>
-
         </table>
 
     </div>
 
-    <br>
-
-    <input type="button" value="Adicionar item" onclick="adicionaritem()">
-    <input type="button" value="Tirar item" onclick="tiraritem()">
-    <input type="button" value="Dar Dano" onclick="dano()">
-    <input type="button" value="Usar Curas" onclick="curas()">
-    <input type="button" value="Usar Habilidade" onclick="habilidade()">
-
-    <br>
-    <p id="slots">8 slots</p>
-    <br>
-
-    <div id="itens1" class="itens">
-        <img src="../itens/segunda-parte/Machado.png" alt="" class="item">
-        <p>Machado</p>
-    </div>
-
-    <div id="itens2" class="itens">
-
-    </div>
-
-    <div id="itens3" class="itens">
-
-    </div>
-
-    <div id="itens4" class="itens">
-        <img src="../itens/fluido-quimico.png" alt="" class="item">
-        <p>1 Fluído químico</p>
-    </div>
-
-    <div id="itens5" class="itens">
-
-    </div>
-
-    <div id="itens6" class="itens">
-
-    </div>
-
-    <div id="itens7" class="itens"></div>
-
-    <div id="itens8" class="itens">
-
-    </div>
-
-    <div id="itens9" class="itens">
-        <img src="../itens/segunda-parte/Pistola-ASP 9.png" alt="" class="item">
-        <p>ASP-9</p>
-    </div>
-
-    <div id="itens10" class="itens"></div>
-
-    <div id="itens11" class="itens">
-
-    </div>
-
-    <div id="itens12" class="itens">
-
-    </div>
-
-    <div id="itens13" class="itens"></div>
-
-    <div id="itens14" class="itens">
-
-    </div>
-
-    <div id="itens15" class="itens">
-
-    </div>
-
-    <div id="itens16" class="itens"></div>
-
-    <div id="itens17" class="itens"></div>
-
-    <div id="itens18" class="itens">
-
-    </div>
-
-    <div id="itens19" class="itens"></div>
-
-    <div id="itens20" class="itens"></div>
-
-    <div id="itens21" class="itens"></div>
-
-    <div id="itens22" class="itens"></div>
-
-    <div id="itens23" class="itens"></div>
-
-    <div id="itens24" class="itens"></div>
-
-    <div id="itens25" class="itens"></div>
-
-    <div id="itens26" class="itens"></div>
-
-    <p id="jogador"><a href="../player 3/index.html">Mudar jogador</a></p>
-
-
-
-    <script src="mapas.js"></script>
-    <script src="atributos.js"></script>
-    <script src="itens.js"></script>
-    <script src="script1.js"></script>
-    <script src="script2.js"></script>
-    <script src="script3.js"></script>
-    <script src="script4.js"></script>
-    <script src="script5.js"></script>
-
+    <script src="monstros.js"></script>
 
 </body>
 </html>

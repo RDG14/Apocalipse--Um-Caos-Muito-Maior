@@ -2,7 +2,6 @@ let d = 0
 let p = document.getElementById('dinheiro')
 p.innerHTML = `${d} moedas`
 
-
 function contarmoeda(){
 let incremento = confirm('OK para adicionar. CANCELAR para tirar')
 
@@ -126,6 +125,43 @@ function reforçoeletricidade2machado(){
     p.innerHTML = `${d} moedas`
 }
 
+//FN-BALLISTA
+
+let dano1_fn = document.getElementById('dano1-fn')
+
+dano1_fn.addEventListener('click', function(){
+    d = d-10000
+    p.innerHTML = `${d} moedas`
+})
+
+let dano2_fn = document.getElementById('dano2-fn')
+
+dano2_fn.addEventListener('click', function(){
+    d = d - 15000
+    p.innerHTML = `${d} moedas`
+})
+
+let dano3_fn = document.getElementById('dano3-fn')
+
+dano3_fn.addEventListener('click', function(){
+    d = d - 20000
+    p.innerHTML = `${d} moedas`
+})
+
+let dano4_fn = document.getElementById('dano4-fn')
+
+dano4_fn.addEventListener('click', function(){
+    d = d - 25000
+    p.innerHTML = `${d} moedas`
+})
+
+let dano5_fn = document.getElementById('dano5-fn')
+
+dano5_fn.addEventListener('click', function(){
+    d = d - 30000
+    p.innerHTML = `${d} moedas`
+})
+
 //MEDICINA
 
 function curacompleta(){
@@ -137,3 +173,4 @@ function curaparcial(){
     d = d-7000
     p.innerHTML = `${d} moedas`
 }
+

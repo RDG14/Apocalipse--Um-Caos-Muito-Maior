@@ -16,6 +16,7 @@ div{
 #imagemjoao{
     background-color: rgb(3, 83, 94);
     height: 400px;
+    width: 400px;
     border: 5px solid rgb(168, 155, 155);
 }
 

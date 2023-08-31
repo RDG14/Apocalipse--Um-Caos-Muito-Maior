@@ -9,6 +9,7 @@ let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
 let quant_kitmedico = 1 //KIT MÉDICO
 let quant_granadas = 0 //GRANADAS
+let quant_muniçao_sniper = 0 //MUNIÇÃO DE SNIPER
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -43,11 +44,6 @@ function adicionaritem(){
     if (i == 'machado'){
         item1.innerHTML += `<img src="../itens/segunda-parte/Machado.png" alt="" class="item" id="faca">`
         item1.innerHTML += `<p>Machado</p>`
-    }
-
-    if (i == 'lanterna'){
-        item2.innerHTML += `<img src="../itens/primeira-parte/lanterna.png" alt="" class="item">`
-        item2.innerHTML += `<p>Lanterna</p>`
     }
 
     if(i == 'foto de familia'){
@@ -130,6 +126,18 @@ function adicionaritem(){
         item26.innerHTML += `<p>FN Ballista</p>`
     }
 
+
+//MUNIÇÃO DE PISTOLA
+
+if(i == 'muniçao de sniper'){
+
+    let quantidade = Number(prompt('Quantas munições você pegou?'))
+    let soma = quant_muniçao_sniper + quantidade
+    quant_muniçao_sniper = soma
+
+    item2.innerHTML = `<img src="../itens/munição de sniper.png" alt="" class="item">`
+    item2.innerHTML += `<p>${quant_muniçao_sniper} Munições de Sniper</p>`
+}
 
 //FLUÍDO QUÍMICO
 
@@ -292,10 +300,6 @@ function tiraritem(){
         item1.innerHTML = ''
     }
 
-    if(i == 'lanterna'){
-        item2.innerHTML = ''
-    }
-
     if(i == 'foto de familia'){
         item3.innerHTML = ''
     }
@@ -357,6 +361,23 @@ function tiraritem(){
         item26.innerHTML = ''
     }
     
+
+//MUNIÇÃO DE SNIPER
+
+if(i == 'muniçao de sniper'){
+    let quantidade = prompt('Quantas munições você usou?')
+
+    let subtração = quant_muniçao_sniper - quantidade
+    quant_muniçao_sniper = subtração
+
+    item2.innerHTML = `<img src="../itens/munição de sniper.png" alt="" class="item">`
+    item2.innerHTML += `<p>${quant_muniçao_sniper} Munições de Sniper</p>`
+
+    if(quant_muniçao_sniper == 0){
+        item2.innerHTML = ''
+    }
+    
+}
 
 //FLUÍDO QUÍMICO
 
