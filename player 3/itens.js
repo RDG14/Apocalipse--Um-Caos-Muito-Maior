@@ -39,11 +39,33 @@ function adicionaritem(){
     let item24 = document.getElementById('itens24')
     let item25 = document.getElementById('itens25')
     let item26 = document.getElementById('itens26')
+    let item27 = document.getElementById('itens27')
+    let item28= document.getElementById('itens28')
+    let item29 = document.getElementById('itens29')
+    let item30 = document.getElementById('itens30')
+    let item31 = document.getElementById('itens31')
+    let item32 = document.getElementById('itens32')
+    let item33 = document.getElementById('itens33')
+    let item34 = document.getElementById('itens34')
+    let item35 = document.getElementById('itens35')
+    let item36 = document.getElementById('itens36')
+    let item37 = document.getElementById('itens37')
+    let item38 = document.getElementById('itens38')
+    let item39 = document.getElementById('itens39')
+    let item40 = document.getElementById('itens40')
+    let item41 = document.getElementById('itens41')
+    let item42 = document.getElementById('itens42')
+    let item43 = document.getElementById('itens43')
 
 
     if(i == 'pistola'){
         item1.innerHTML += `<img src="../itens/segunda-parte/pistola-amt hardballer.png" alt="" class="item">`
         item1.innerHTML += `<p>Pistola</p>`
+    }
+
+    if(i == 'chave branca'){
+        item3.innerHTML += `<img src="../itens/parte 4/1 - Sala de Armários/Aline/Chave Branca.png" alt="" class="item">`
+        item3.innerHTML += `<p>Chave Branca</p>`
     }
 
     if(i == 'frasco 2'){
@@ -114,6 +136,56 @@ function adicionaritem(){
     if(i == 'sniper'){
         item26.innerHTML = `<img src="../itens/parte 3/Sniper FN Ballista.png" alt="" class="item" style="width: 210px";></img>`
         item26.innerHTML += `<p>FN Ballista</p>`
+    }
+
+    if(i == 'anel vermelho'){
+        item27.innerHTML = `<img src="../itens/parte 4/1 - Sala de Armários/Aline/Anel Vermelho.png" alt="" class="item">`
+        item27.innerHTML += `<p>Anel Vermelho</p>`
+    }
+
+    if(i == 'alavanca'){
+        item28.innerHTML = `<img src="../itens/parte 4/1 - Sala de Armários/Clara/Alavanca.png" alt="" class="item">`
+        item28.innerHTML += `<p>Alavanca</p>`
+    }
+
+    if(i == 'bomba a'){
+        item29.innerHTML = `<img src="../itens/Granada de atordoamento.png" alt="" class="item">`
+        item29.innerHTML += `<p>Bomba de Atordoamento</p>`
+    }
+
+    if(i == 'lanterna'){
+        item30.innerHTML = `<img src="../itens/primeira-parte/lanterna.png" alt="" class="item">`
+        item30.innerHTML += `<p>Lanterna</p>`
+    }
+
+    if(i == 'bateria'){
+        item31.innerHTML = `<img src="../itens/Bateria.png" alt="" class="item">`
+        item31.innerHTML += `<p>Bateria</p>`
+    }
+
+    if(i == 'pistola 2'){
+        item32.innerHTML = `<img src="../itens/parte 4/4 - Sala com Luz Fraca/Pistola - Astra Model.png" alt="" class="item" style="width: 120px;">`
+        item32.innerHTML += `<p>Astra Model</p>`
+    }
+
+    if(i == 'lampada'){
+        item33.innerHTML = `<img src="../itens/parte 4/4 - Sala com Luz Fraca/lâmpada.png" alt="" class="item">`
+        item33.innerHTML += `<p>Lâmpada</p>`
+    }
+
+    if(i == 'bomba de e'){
+        item34.innerHTML = `<img src="../itens/Granada de estilhaço.png" alt="" class="item">`
+        item34.innerHTML += `<p>Bomba de Estilhaço</p>`
+    }
+
+    if(i == 'frasco 3'){
+        item35.innerHTML = `<img src="../itens/Frasco PE.png" alt="" class="item">`
+        item35.innerHTML += `<p>Frasco de Líquido Marrom</p>`
+    }
+
+    if(i == 'cruz'){
+        item36.innerHTML = `<img src="../itens/parte 4/8 - Sala dos Botões/Cruz.png" alt="" class="item">`
+        item36.innerHTML = `<p>Cruz</p>`
     }
 
 
@@ -285,10 +357,31 @@ function tiraritem(){
     let item24 = document.getElementById('itens24')
     let item25 = document.getElementById('itens25')
     let item26 = document.getElementById('itens26')
+    let item27 = document.getElementById('itens27')
+    let item28 = document.getElementById('itens28')
+    let item29 = document.getElementById('itens29')
+    let item30 = document.getElementById('itens30')
+    let item31 = document.getElementById('itens31')
+    let item32 = document.getElementById('itens32')
+    let item33 = document.getElementById('itens33')
+    let item34 = document.getElementById('itens34')
+    let item35 = document.getElementById('itens35')
+    let item36 = document.getElementById('itens36')
+    let item37 = document.getElementById('itens37')
+    let item38 = document.getElementById('itens38')
+    let item39 = document.getElementById('itens39')
+    let item40 = document.getElementById('itens40')
+    let item41 = document.getElementById('itens41')
+    let item42 = document.getElementById('itens42')
+    let item43 = document.getElementById('itens43')
 
 
     if(i == 'pistola'){
         item1.innerHTML = ''
+    }
+
+    if(i == 'chave branca'){
+        item3.innerHTML = ''
     }
 
     if(i == 'frasco 2'){
@@ -343,7 +436,46 @@ function tiraritem(){
     if(i == 'sniper'){
         item26.innerHTML = ''
     }
+
+    if(i == 'anel vermelho'){
+        item27.innerHTML = ''
+    }
+
+    if(i == 'alavanca'){
+        item28.innerHTML = ''
+    }
+
+    if(i == 'bomba a'){
+        item29.innerHTML = ''
+    }
+
+    if(i == 'lanterna'){
+        item30.innerHTML = ''
+    }
+
+    if(i == 'bateria'){
+        item31.innerHTML = ''
+    }
+
+    if(i == 'pistola 2'){
+        item32.innerHTML = ''
+    }
     
+    if(i == 'lampada'){
+        item33.innerHTML = ''
+    }
+
+    if(i == 'bomba de e'){
+        item34.innerHTML = ''
+    }
+
+    if(i == 'frasco 3'){
+        item35.innerHTML = ''
+    }
+
+    if(i == 'cruz'){
+        item36.innerHTML = ''
+    }
 
 //MUNIÇÃO DE SNIPER
 
@@ -591,6 +723,20 @@ function dano(){
         alert(`d20 = ${n2}`)
         alert(`d8 = ${n3}`)
         
+        alert(`${soma} de dano`)
+    }
+
+    if(d == 'd5'){ //Astra Model
+        let n = Math.floor(Math.random() * 12 + 1)
+        let n2 = Math.floor(Math.random() * 8 + 1)
+        let n3 = Math.floor(Math.random() * 4 + 1)
+        let n4 = 2
+        let soma = n + n2 + n3 + n4
+
+        alert(`d12 = ${n}`)
+        alert(`d8 = ${n2}`)
+        alert(`d4 = ${n3}`)
+        alert('+2')
         alert(`${soma} de dano`)
     }
 

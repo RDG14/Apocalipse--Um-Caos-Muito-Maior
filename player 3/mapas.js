@@ -67,6 +67,29 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 3/igreja.png" alt="" class="mapa">`
     }
 
+    if(m == 'valvulas'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/2 - Sala Inundada/Válvulas.png" alt="" class="mapa">`
+    }
+
+    if(m == 'cofre'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/3 - Sala Escura/Cofre.png" alt="" class="mapa">`
+    }
+
+    if(m == 'maleta'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/3 - Sala Escura/Maleta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'corredor'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/4 - Sala com Luz Fraca/Corredor.png" alt="" class="mapa">`
+    }
+
+    if(m == 'pilar'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/9 - Sala de Fogo/Pilar.png" alt="" class="mapa">`
+    }
+
+    if(m == 'simbolos'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/9 - Sala de Fogo/Símbolos.png" alt="" class="mapa">`
+    }
 
     
     //CARTAS
@@ -93,6 +116,46 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 4/Carta do escritório.png" alt="" class="mapa">`
     }
 
+    if(m == 'diario 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/1 - Sala dos Armários/1 - Armários/Igor/Diário 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'diario 2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/1 - Sala dos Armários/1 - Armários/Igor/Diário 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/1 - Sala dos Armários/1 - Armários/Rafael/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/2 - Sala Inundada/Baú/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/3 - Sala Escura/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 4'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/4 - Sala com Luz Fraca/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 5'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/5 - Sala dos Espinhos/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'mensagem'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/2 - Sala Inundada/mensagem.png" alt="" class="mapa">`
+    }
+
+    if(m == 'pedaço de papel'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/7 - Sala das Centopéias/pedaço de papell.png" alt="" class="mapa">`
+    }
+
+    if(m == 'papel com codigo'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/11 - Sala das Serras/Papel com código.png" alt="" class="mapa">`
+    }
+
 
     //PORTAS
 
@@ -108,12 +171,17 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 5/Porta de caveira.png" alt="" class="mapa">`
     }
 
+    if(m == 'porta 3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/2 - Sala Inundada/Porta.png" alt="" class="mapa">`
+    }
+
 
     //ITENS NÃO PEGÁVEIS
 
     if(m == 'livro'){
-        mapa.innerHTML = `<img src="../Mapas/parte 3/Casa 3/livro.png" alt="" class="mapa">`
+        mapa.innerHTML = `<img src="../Mapas/parte 4/9 - Sala de Fogo/Livro.png" alt="" class="mapa">`
     }
+
 
 
     //MERCADOR
