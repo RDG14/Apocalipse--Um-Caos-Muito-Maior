@@ -6,6 +6,4 @@
 
 - 9 munições no pente
 
-- 15 de proteção
-
-- Armadura Forte (-1 de destreza)
+- 6 de proteção

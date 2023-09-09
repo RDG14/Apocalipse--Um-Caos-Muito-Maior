@@ -111,7 +111,7 @@ function funçaosanidade(){
 }
 
 let pontosdeesforço = document.getElementById('pontosdeesforço')
-let pontos_de_esforço = 30
+let pontos_de_esforço = 65
 pontosdeesforço.innerHTML += `${pontos_de_esforço}`
 
 pontosdeesforço.addEventListener('click', function(){
