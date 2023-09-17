@@ -1,14 +1,14 @@
-let quant_fq = 1 //FLUÍDO QUÍMICO
-let quant_ervas = 1 //ERVAS
+let quant_fq = 0 //FLUÍDO QUÍMICO
+let quant_ervas = 2 //ERVAS
 let quant_cura = 0 //CURA
 let quant_polvora = 0 //PÓLVORA
-let quant_muniçaop = 1 //MUNIÇÃO DE PISTOLA
-let quant_pano = 0 //PANO
+let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
+let quant_pano = 2 //PANO
 let quant_metal = 0 //METAL
 let quant_muniçaos = 2 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
 let quant_kitmedico = 0 //KIT MÉDICO
-let quant_granadas = 0 //GRANADAS
+let quant_granadas = 2 //GRANADAS
 let quant_muniçao_sniper = 0 //MUNIÇÃO DE SNIPER
 
 function adicionaritem(){
@@ -713,6 +713,20 @@ function dano(){
 
     }
 
+    if(d == 'd3'){
+        let n = Math.floor(Math.random() * 20)
+        let n2 = Math.floor(Math.random() * 20)
+        let n3 = Math.floor(Math.random() * 12)
+        n++
+        n2++
+        n3++
+        let soma = n + n2 + n3
+
+        alert(`2d20 = ${n + n2}`)
+        alert(`1d12 = ${n3}`)
+        alert(`${soma} de dano`)
+    }
+
     if(d == 'd4'){ //Banelli M1014
         let n = Math.floor(Math.random() * 20 + 1)
         let n2 = Math.floor(Math.random() * 20 + 1)
@@ -725,6 +739,7 @@ function dano(){
         
         alert(`${soma} de dano`)
     }
+
 
     if(d == 'd5'){ //Astra Model
         let n = Math.floor(Math.random() * 12 + 1)

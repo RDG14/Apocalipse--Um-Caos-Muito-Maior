@@ -114,7 +114,7 @@ function funçaosanidade(){
 
 let pontosdeesforço = document.getElementById('pontosdeesforço')
 let pontos_de_esforço = 75
-pontosdeesforço.innerHTML += `${pontos_de_esforço}`
+pontosdeesforço.innerHTML += `${pontos_de_esforço}/75`
 
 pontosdeesforço.addEventListener('click', function(){
     let escolha = confirm('Aperte "OK" para adicionar e "CANCELAR" para tirar')
@@ -123,12 +123,12 @@ pontosdeesforço.addEventListener('click', function(){
         let n = Number(prompt('Quantos pontos de esforço você recebeu?'))
         let soma = pontos_de_esforço + n
         pontos_de_esforço = soma
-        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}/75`
 
     } else{
         let n = Number(prompt('Quantos pontos de esforço você usou?'))
         let subtração = pontos_de_esforço - n
         pontos_de_esforço = subtração
-        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
+        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}/75`
     }
 })
