@@ -25,15 +25,15 @@ else{
 }
 
 function frasco1(){
-    d = d - 15000
+    d = d - 10000
     p.innerHTML = `${d} moedas`
 }
 
 function frasco2(){
-    d = d - 15000
+    d = d - 10000
     p.innerHTML = `${d} moedas` 
 }
 
 function frasco3(){
-    
+    d = d - 5000
 }
