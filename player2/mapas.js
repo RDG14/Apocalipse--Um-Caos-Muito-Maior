@@ -151,6 +151,124 @@ function adicionamapa(){
         mapa.innerHTML = `<img src="../Mapas/parte 4/11 - Sala das Serras/Papel com código.png" alt="" class="mapa">`
     }
 
+    if(m == 'desenho'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/13 - Sala de Sangue/Desenho.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 6'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/14 - Homem Centopéia/Carta.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 7'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/17- Sala de mineração/carta 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'carta 8'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/17- Sala de mineração/carta 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/1ª Estante/Livro - A morte de Lina/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l1p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/1ª Estante/Livro - A morte de Lina/Pag 1 - livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l1p2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/1ª Estante/Livro - A morte de Lina/Pag 2 - Livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/1ª Estante/6 Mandamentos da Rainha/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l2p1'){
+        mapa.innerHTML = ` <img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/1ª Estante/6 Mandamentos da Rainha/pag 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/2ª Estante/Livro DECORE-ME/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l3p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/2ª Estante/Livro DECORE-ME/Pág 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l3p2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/2ª Estante/Livro DECORE-ME/Pág 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l3p3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/2ª Estante/Livro DECORE-ME/Pág 3.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p3'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 3.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p4'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 4.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p5'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 5.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p6'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 6.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l4p7'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Deuses Gregos/Pag 7.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l5'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Os Maias/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l5p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Os Maias/Pag 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l5p2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Os Maias/Pag 2.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l6'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Charadas/Capa do livro.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l6p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/1ª Fileira/3ª Estante/Charadas/Pag 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l7'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/2ª Fileira/1ª Estante/Diário/Capa.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l7p1'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/2ª Fileira/1ª Estante/Diário/Pag 1.png" alt="" class="mapa">`
+    }
+
+    if(m == 'l7p2'){
+        mapa.innerHTML = `<img src="../Mapas/parte 4/19 - Biblioteca Destruída/2ª Fileira/1ª Estante/Diário/Pag 2.png" alt="" class="mapa">`
+    }
+
+
+
 
     
 
