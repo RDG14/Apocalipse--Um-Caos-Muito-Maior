@@ -1,5 +1,5 @@
 let vida = document.getElementById('vida')
-let v = 39
+let v = 51
 let vmx = 134
 vida.innerHTML += `${v}/${vmx}`
 
@@ -50,7 +50,7 @@ let pontosanidade = document.getElementById('pontossanidade')
 let s = 107
 let smx = 134
 sanidade.innerHTML += `${s}/${smx}`
-let pontos_sanidade = 30
+let pontos_sanidade = 32
 pontossanidade.innerHTML += `${pontos_sanidade}`
 
 function funçaosanidade(){

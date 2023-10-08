@@ -1,15 +1,15 @@
 let quant_fq = 0 //FLUÍDO QUÍMICO
 let quant_ervas = 2 //ERVAS
-let quant_cura = 0 //CURA
+let quant_cura = 6 //CURA
 let quant_polvora = 0 //PÓLVORA
 let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
 let quant_pano = 2 //PANO
 let quant_metal = 0 //METAL
-let quant_muniçaos = 2 //MUNIÇÃO DE SHOTGUN
+let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
-let quant_kitmedico = 0 //KIT MÉDICO
-let quant_granadas = 2 //GRANADAS
-let quant_muniçao_sniper = 0 //MUNIÇÃO DE SNIPER
+let quant_kitmedico = 1 //KIT MÉDICO
+let quant_granadas = 4 //GRANADAS
+let quant_muniçao_sniper = 1 //MUNIÇÃO DE SNIPER
 
 function adicionaritem(){
     let i = prompt('Adicione o item')
@@ -702,11 +702,14 @@ function dano(){
     if(d == 'd2'){ //Pistola
         let n = Math.floor(Math.random() * 12)
         let n2 = Math.floor(Math.random() * 4)
+        let n3 = Math.floor(Math.random() * 8)
         n++
         n2++
-        let soma = n + n2
+        n3++
+        let soma = n + n2 + n3
 
         alert(`d12 = ${n}`)
+        alert(`d8 = ${n3}`)
         alert(`d4 = ${n2}`)
         alert(`${soma} de dano`)
 
@@ -746,9 +749,10 @@ function dano(){
         let n2 = Math.floor(Math.random() * 8 + 1)
         let n3 = Math.floor(Math.random() * 4 + 1)
         let n4 = 2
-        let soma = n + n2 + n3 + n4
+        let n5 = Math.floor(Math.random() * 12)
+        let soma = n + n2 + n3 + n4 + n5
 
-        alert(`d12 = ${n}`)
+        alert(`2d12 = ${n}`)
         alert(`d8 = ${n2}`)
         alert(`d4 = ${n3}`)
         alert('+2')
@@ -800,56 +804,63 @@ function curas(){
             }
         }
     
-        if(cura == 'kit medico'){
-            let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
+    if(cura == 'kit medico'){
+        let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
     
-            if(atributo == true){
-                let dado20 = Math.floor(Math.random() * 20)
-                dado20 ++
-                let dado12 = Math.floor(Math.random() * 12)
-                dado12 ++
-        
-                let soma1 = dado20 + dado12
+        if(atributo == true){
+            let n = Math.floor(Math.random() * 20)
+            n ++
+            let n2 = Math.floor(Math.random() * 12)
+            n2 ++
+
+            let n3 = Math.floor(Math.random() * 20)
+            n3++
     
-                let dado20_2 = Math.floor(Math.random() * 20)
-                dado20_2 ++
-                let dado12_2 = Math.floor(Math.random() * 12)
-                dado12_2 ++
+            let soma1 = n + n3 + n2
     
-                let soma2 = dado20_2 + dado12_2
-    
-                if(soma1 > soma2){
-                    alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
-                    v = v + soma1
-                    vida.innerHTML = `Vida: ${v}/${vmx}`
-                } 
-                
-                else if(soma1 < soma2){
-                    alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
-                    v = v + soma2
-                    vida.innerHTML = `Vida: ${v}/${vmx}`
-                }
-    
-                if(v > vmx){
-                    v = vmx
-                    vida.innerHTML = `Vida: ${v}/${vmx}`
-                }
-    
-                item11.innerHTML = ''
+            let nn = Math.floor(Math.random() * 20)
+             nn ++
+            let nn2 = Math.floor(Math.random() * 12)
+            nn2 ++
+
+            let nn3 = Math.floot(Math.random() * 20)
+            nn3++
+
+            let soma2 = nn + nn3 + nn2
+
+            if(soma1 > soma2){
+                alert(`${n} + ${n3} + ${n2} = ${soma1}        /      2º dado = ${soma2}`)
+                v = v + soma1
+                vida.innerHTML = `Vida: ${v}/${vmx}`
+            } 
+            
+            else if (soma2 > soma1){
+                alert(`${nn} + ${nn3} + ${nn2} = ${soma2}       /      1º dado = ${soma1}`)
+                v = v + soma2
+                 vida.innerHTML = `Vida: ${v}/${vmx}`
             }
+
+            if(v > vmx){
+                v = vmx
+                vida.innerHTML = `Vida: ${v}/${vmx}`
+            }
+
+            item11.innerHTML = ''
+        }
     
             else{
-                let dado20 = Math.floor(Math.random() * 20)
-                dado20 ++
-                let dado12 = Math.floor(Math.random() * 12)
-                dado12 ++
+                let n = Math.floor(Math.random() * 20)
+                n ++
+                let n2 = Math.floor(Math.random() * 12)
+                n2 ++
+                let n3 = Math.floor(Math.random() * 20 + 1)
         
-                let soma1 = dado20 + dado12
+                let soma1 = n + n3 + n2
     
-                alert(`${dado20} + ${dado12} = ${soma1}`)
+                alert(`${n} + ${n3} + ${n2} = ${soma1}`)
     
                 v = v + soma1
-                vida.innerHTML = `Vida: ${v}/100`
+                vida.innerHTML = `Vida: ${v}/${vmx}`
     
                 if(v > vmx){
                     v = vmx
@@ -859,6 +870,7 @@ function curas(){
                 item11.innerHTML = ''
             }
         }
+    
     
         if(cura == 'bandagem'){
     

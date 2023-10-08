@@ -75,7 +75,7 @@ function frequenciadetiro(){
 }
 
 function carregadorestendido(){
-    d = d - 10000
+    d = d - 5000
     p.innerHTML = `${d} moedas`
 }
 
@@ -171,6 +171,21 @@ function curacompleta(){
 
 function curaparcial(){
     d = d-7000
+    p.innerHTML = `${d} moedas`
+}
+
+function curaesforço1(){
+    d = d-3000
+    p.innerHTML = `${d} moedas`
+}
+
+function curaesforço2(){
+    d = d - 5000
+    p.innerHTML = `${d} moedas`
+}
+
+function curaesforço3(){
+    d = d - 10000
     p.innerHTML = `${d} moedas`
 }
 

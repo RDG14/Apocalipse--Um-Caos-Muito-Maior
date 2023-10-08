@@ -1653,7 +1653,7 @@ function funçaoarremessar(){
 //Encontrar
 
 let encontrar = document.getElementById('encontrar')
-let e = 8
+let e = 9
 encontrar.innerHTML = `${e}`
 
 function funçaoencontrar(){

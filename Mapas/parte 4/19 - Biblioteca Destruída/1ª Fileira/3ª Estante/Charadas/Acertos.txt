@@ -1,0 +1,82 @@
+Se acertar 1:
+	- 1 Faca cheia de sangue escrita no cabo dela bem pequeno: "A Sorte as vezes é necessária). Essa faca liga você e seu sangue você sente isso. 
+		- Rolar armas cortantes:
+			- Normal: Rolar Sorte
+			- Bom: Dano máximo
+			- Extremo: Dano máximo + rolar destreza
+
+		- Rolar Destreza:
+			- Normal: Dano máximo + 1d8
+			- Bom: Dano máximo + 1 rolagem de dano
+			- Extremo: 2 Danos máximos.
+
+		- Rolar Sorte:
+			- Fracasso: 1d12 + 2
+			- Normal: 1d20 + 1d4
+			- Bom: 1d20 + 1d8 + 1d4
+			- Extremo: 2d20
+
+		- Independente da rolagem: Dano máximo equivale a 25.
+		- Se tirar 25 de sua vida, o dano máximo passa a valer 40.
+---------------------------------------------------------------------------------
+
+Se acertar 2:
+	- Faca do se acertar 1.
+
+	- Se usar proteção de itens para fazer itens:
+
+		- Fracasso: Perde os itens para fazer.
+		- Normal: +1 do item feito.
+		- Bom: +1 do item feito e escolhe um dos itens para manter.
+		- Extremo: +1 do item ser gasto dos itens.
+
+--------------------------------------------------------------------------------
+
+Se acertar 3:
+
+	- Mesma coisa do acerto 2.
+
+	- Uma moeda de ouro bem diferenciado (Dá 50% de desconto em algum item  do mercador ou cultista, você escolhe).
+--------------------------------------------------------------------------------
+
+Se acertar 4:
+	- Mesma coisa do acerto 3.
+
+	- Escolher 1 número:
+		
+		1- Força
+		2 - Resistência
+		3 - Lutar
+		4 - Destreza
+		5 - Parkour
+		6 - Furtividade
+		7 - Arremessar
+		8 - Encontrar
+		9 - Escutar
+		10 - Medicina
+		11 - Primeiros Socorros
+		12 - Luta Pela Vida
+		13 - Inteligência
+		14 - Psicologia
+		15 - Lábia
+		16 - Intimidar
+		17 - Armas Cortantes
+		18 - Armas Pesadas
+		19 - Armas de Fogo
+		20 - Bestas
+		21 - Explosivos
+		22 - Produção de itens
+		23 - Sorte
+		24 - Natação
+		25 - Desvio Aliado
+		26 - Pesquisa
+		27 - Reflexo
+
+	Ganha 1 atributo no número escolhido.
+--------------------------------------------------------------------------------
+
+Se acertar 5:
+
+	- Mesma coisa do 4:
+
+	- Você sente vê o sangue daquela faca meio que entrando dentro do seu corpo, você ganha +50 de vida máxima e atual.

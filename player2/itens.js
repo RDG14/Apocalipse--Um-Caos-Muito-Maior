@@ -1,13 +1,13 @@
-let quant_fq = 1 //FLUÍDO QUÍMICO
+let quant_fq = 3 //FLUÍDO QUÍMICO
 let quant_ervas = 0 //ERVAS
-let quant_cura = 3 //CURA
+let quant_cura = 2 //CURA
 let quant_polvora = 0 //PÓLVORA
 let quant_muniçaop = 0 //MUNIÇÃO DE PISTOLA
 let quant_pano = 0 //PANO
 let quant_metal = 0 //METAL
 let quant_muniçaos = 0 //MUNIÇÃO DE SHOTGUN
 let quant_bandagens = 0 //BANDAGENS
-let quant_kitmedico = 1 //KIT MÉDICO
+let quant_kitmedico = 2 //KIT MÉDICO
 let quant_granadas = 0 //GRANADAS
 let quant_muniçao_sniper = 0 //MUNIÇÃO DE SNIPER
 
@@ -191,6 +191,11 @@ function adicionaritem(){
     if(i == 'cruz'){
         item36.innerHTML = `<img src="../itens/parte 4/8 - Sala dos Botões/Cruz.png" alt="" class="item">`
         item36.innerHTML = `<p>Cruz</p>`
+    }
+
+    if(i == 'fusivel'){
+        item37.innerHTML = `<img src="../itens/parte 4/3 - Sala Escura/Fúsivel.png" alt="" class="item">`
+        item37.innerHTML += `<p>Fusível</p>`
     }
 
 
@@ -484,6 +489,10 @@ function tiraritem(){
     if(i == 'cruz'){
         item36.innerHTML = ''
     }
+
+    if(i == 'fusivel'){
+        item37.innerHTML = ''
+    }
     
 
 //MUNIÇÃO DE SNIPER
@@ -711,12 +720,14 @@ function dano(){
     if(d == 'd2'){ //Machado
         let n = Math.floor(Math.random() * 12)
         let n2 = Math.floor(Math.random() * 4)
+        let n3 = Math.floor(Math.random() * 4)
         n++
         n2++
-        let soma = n + n2
+        n3++
+        let soma = n + n2 + n3
 
         alert(`d12 = ${n}`)
-        alert(`d4 = ${n2}`)
+        alert(`2d4 = ${n2 + n3}`)
         alert(`${soma} de dano`)
 
 
@@ -724,76 +735,21 @@ function dano(){
 
     if(d == 'd3'){ //ASP 9
 
-        let melhoria = confirm('OK para rolar dano. CANCELAR para usar melhoria')
         let n = Math.floor(Math.random() * 12)
         let n2 = Math.floor(Math.random() * 8)
         let n3 = Math.floor(Math.random() * 6)
+        let n4 = Math.floor(Math.random() * 6)
         n++
         n2++
         n3++
+        n4++
 
-        let soma = n + n2 + n3
+        let soma = n + n2 + n3 + n4
 
-
-
-        if(melhoria == false){
-            let m = prompt('Qual melhoria?')
-
-            if(m == 'dano'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n = n + quantidade
-
-                alert(`d20 + ${quantidade} = ${n}`)
-                alert(`d6 = ${n2}`)
-                alert(`${soma} de dano`)
-            }
-
-            if(m == 'dano 2'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n4 = Math.floor(Math.random() * 6 * quantidade)
-                n4++
-                n4 += quantidade
-
-                alert(`d12 = ${n}`)
-                alert(`d8 = ${n2}`)
-                alert(`d6 = ${n3}`)
-                alert(`${quantidade}d6 = ${n4}`)
-
-                soma = soma + n4
-
-                alert(`${soma} de dano`)
-                
-            }
-
-            if(m == 'dano 3'){
-                let quantidade = Number(prompt('Quantas?'))
-
-                n4 = Math.floor(Math.random() * 8 * quantidade)
-                n4++
-                n4 += quantidade
-
-                alert(`d12 = ${n}`)
-                alert(`d8 = ${n2}`)
-                alert(`d6 = ${n3}`)
-                alert(`${quantidade}d8 = ${n4}`)
-
-                soma = soma + n4
-
-                alert(`${soma} de dano`)
-            }
-
-        }
-
-        if(melhoria == true){
-            alert(`d12 = ${n}`)
-            alert(`d8 = ${n2}`)
-            alert(`d6 = ${n3}`)
-            alert(`${soma} de dano`)
-        }
-
-
+        alert(`d12 = ${n}`)
+        alert(`d8 = ${n2}`)
+        alert(`2d6 = ${n3 + n4}`)
+        alert(`${soma} de dano`)
 
     }
 
@@ -824,6 +780,17 @@ function dano(){
         alert(`d8 = ${n2}`)
         alert(`d4 = ${n3}`)
         alert('+2')
+        alert(`${soma} de dano`)
+    }
+
+    if(d == 'd6'){ //Adaga
+        let n = Math.floor(Math.random() * 12 + 1)
+        let n2 = Math.floor(Math.random() * 8 + 1)
+
+        let soma = n + n2
+
+        alert(`d12 = ${n}`)
+        alert(`d8 = ${n2}`)
         alert(`${soma} de dano`)
     }
 
@@ -876,28 +843,34 @@ function curas(){
             let atributo = confirm('OK para Medicina. CANCELAR para Primeiros Socorros')
     
             if(atributo == true){
-                let dado20 = Math.floor(Math.random() * 20)
-                dado20 ++
-                let dado12 = Math.floor(Math.random() * 12)
-                dado12 ++
+                let n = Math.floor(Math.random() * 20)
+                n ++
+                let n2 = Math.floor(Math.random() * 12)
+                n2 ++
+
+                let n3 = Math.floor(Math.random() * 20)
+                n3++
         
-                let soma1 = dado20 + dado12
+                let soma1 = n + n3 + n2
     
-                let dado20_2 = Math.floor(Math.random() * 20)
-                dado20_2 ++
-                let dado12_2 = Math.floor(Math.random() * 12)
-                dado12_2 ++
+                let nn = Math.floor(Math.random() * 20)
+                nn ++
+                let nn2 = Math.floor(Math.random() * 12)
+                nn2 ++
+
+                let nn3 = Math.floot(Math.random() * 20)
+                nn3++
     
-                let soma2 = dado20_2 + dado12_2
+                let soma2 = nn + nn3 + nn2
     
                 if(soma1 > soma2){
-                    alert(`${dado20} + ${dado12} = ${soma1}        /      2º dado = ${soma2}`)
+                    alert(`${n} + ${n3} + ${n2} = ${soma1}        /      2º dado = ${soma2}`)
                     v = v + soma1
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 } 
                 
-                else if(soma1 < soma2){
-                    alert(`${dado20_2} + ${dado12_2} = ${soma2}       /      1º dado = ${soma1}`)
+                else if (soma2 > soma1){
+                    alert(`${nn} + ${nn3} + ${nn2} = ${soma2}       /      1º dado = ${soma1}`)
                     v = v + soma2
                     vida.innerHTML = `Vida: ${v}/${vmx}`
                 }
@@ -911,17 +884,18 @@ function curas(){
             }
     
             else{
-                let dado20 = Math.floor(Math.random() * 20)
-                dado20 ++
-                let dado12 = Math.floor(Math.random() * 12)
-                dado12 ++
+                let n = Math.floor(Math.random() * 20)
+                n ++
+                let n2 = Math.floor(Math.random() * 12)
+                n2 ++
+                let n3 = Math.floor(Math.random() * 20 + 1)
         
-                let soma1 = dado20 + dado12
+                let soma1 = n + n3 + n2
     
-                alert(`${dado20} + ${dado12} = ${soma1}`)
+                alert(`${n} + ${n3} + ${n2} = ${soma1}`)
     
                 v = v + soma1
-                vida.innerHTML = `Vida: ${v}/100`
+                vida.innerHTML = `Vida: ${v}/${vmx}`
     
                 if(v > vmx){
                     v = vmx
@@ -939,10 +913,10 @@ function curas(){
             }
     
             else{
-                let dado6 = Math.floor(Math.random()*6)
+                let dado6 = Math.floor(Math.random() * 10)
                 dado6++
     
-                alert(`d6 = ${dado6}`)
+                alert(`d10 = ${dado6}`)
     
                 v = v + dado6
     
@@ -1075,27 +1049,17 @@ function habilidade(){
     let hab = prompt('Qual habilidade você quer usar')
 
     if(hab == 'h1'){
-        let n = Math.floor(Math.random() * 100)
-        n++
 
-        if(n > 70){
-            alert(`${n} = Recupera toda vida`)
-            v = vmx
-
-            vida.innerHTML = `Vida: ${v}/${vmx}`
-        }
-
-        if(n <= 70){
             alert(`${n} = Recupera vida parcial`)
             let v1 = Math.floor(Math.random() * 20)
             let v2 = Math.floor(Math.random() * 20)
+            let v3 = Math.floor(Math.random() * 20)
             v1++
             v2++
+            v3++
 
-            let soma = v1 + v2
+            let soma = v1 + v2 + v3
 
-            alert(`1d20 = ${v1}`)
-            alert(`1d20 = ${v2}`)
             alert(`Recupera ${soma} de vida`)
 
             v = v + soma
@@ -1105,18 +1069,5 @@ function habilidade(){
             }
 
             vida.innerHTML = `Vida: ${v}/${vmx}`      
-        }
-
-        let s1 = Math.floor(Math.random() * 12)
-        s1++
-
-        alert(`Você perde ${s1} de sanidade`)
-        alert(`Você perde 3 de esforço`)
-
-        pontos_de_esforço -= 3
-        pontosdeesforço.innerHTML = `Pontos de Esforço: ${pontos_de_esforço}`
-
-        s = s - s1
-        sanidade.innerHTML = `Sanidade: ${s}/${smx}`
     }
 }

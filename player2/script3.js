@@ -4957,7 +4957,7 @@ function funçaopsicologia(){
 //Lábia
 
 let labia = document.getElementById('labia')
-let lab = 5
+let lab = 7
 labia.innerHTML = `${lab}`
 
 function funçaolabia(){

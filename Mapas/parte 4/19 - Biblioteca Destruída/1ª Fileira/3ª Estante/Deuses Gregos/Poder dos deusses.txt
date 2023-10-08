@@ -1,0 +1,164 @@
+Perguntas:
+ - O porquê você escolheu esse Deus?
+ - Me diga apenas uma característica boa dele, a que você mais goste.
+ - Você acha que algum dos outros deuses é mais poderoso que este?
+         - Se sim, porque?
+         - Se sim, qual destes?
+         - Se não, porque?
+
+---------------------------------------------------------------------------------
+ESCOLHA ZEUS:
+
+ - Se sim:
+	Sem gasto de PE, mas com o gasto de 3 rodadas, você consegue gerar como se fosse uma tempestade no ambiente, te dando vantagem em qualquer rolagem. 
+	Vantagem em dado de dano também.
+	Se for extremo, dá o dano máximo da arma + uma rolagem do dano dela normal.
+
+ - Se não:
+	Por 10 de sanidade, se passar em sanidade 5, você consegue paralisar qualquer inimigo até a cena acabar. A paralisia acaba a partir do momento que você atacá-lo.
+	Por 30 de vida você consegue atingir um raio no inimigo, dando 1d10 de dano contínuos até a cena acabar.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA HERA:
+
+ - Se sim:
+	Você tem a capacidade permanentemente ver se o inimigo é um ser com consciência ou não.
+
+ - Se não:
+	Por 35 de sanidade. Se passar em sanidade 25 de sanidade. Você consegue achar um ponto vital de um inimigo. Tem desvantagem se quiser acertar nesse ponto fraco, porém se passar dá 1d20 + 1d8 de dano.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA POSEIDON:
+
+ - Se sim:
+	Por 35 de sanidade, se passar 30 de sanidade, você meio que encrava como se fosse uma mensagem emm alguma arma de um tridente. Dando 2d20 a mais de dano. Gasta 1 rodada inteira. Dura a cena inteira naquela arma.
+
+- Se não:
+	Por 15 de sanidade, se passar 7 de sanidade, você consegue fazer com que o inimigo sinta-se afogando aos poucos por 1d6 rodadas. A cada turno dá +1d12 de dano.
+
+
+--------------------------------------------------------------------------------
+
+ESCOLHA ATENA:
+
+ - Se sim:
+	Você ganha perícia em inteligência e pesquisa (se tiver).
+
+ - Se não:
+	Você ganha +2 em inteligência ou pesquisa (se tiver) (de sua escolha).
+
+---------------------------------------------------------------------------------
+
+ESCOLHA ARES:
+
+ - Se sim:
+	Você consegue apavorar um inimigo por 30 de sanidade, se passar 25, ele não consegue contra-atacar até o final da cena.
+
+ - Se não:
+	Você pode escolher uma classe para ganhar. Combatente ou Tanque.
+
+---------------------------------------------------------------------------------
+
+ESCOLHA DEMÉTER:
+
+ - Se sim (O OUTRO PLAYER NÃO PODE SABER):
+	Você consegue apenas uma vez, se necessário, quando alguém entrar em estado morrendo você pode tirá-lo desse estado sem precisar de teste. E ele recupera metade da vida máxima.
+
+ - Se não (O OUTRO PLAYER NÃO PODE SABER):
+	Se alguém morrer, você pode tirar metade da sua vida máxima permanentemente para que o outro reviva.
+
+---------------------------------------------------------------------------------
+
+ESCOLHA APOLO:
+
+ - Se sim:
+	Por 35 de sanidade, algum dano que faria com que alguém entrasse no estado de morrendo é anulado.
+
+- Se não:
+	Usar apenas uma vez, se o monstro tiver menos de 350 de vida máxima, ele morre instantaneamente. OBS: O jogador não vai saber a vida máxima do monstro, ele vai assumir o risco se usar.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA ARTEMIS:
+
+ - Se sim:
+	Você ganha cães de caça. Surgem do chão dois cachorros meio que com partes de seus ossos mostrando, a boca meio rasgada. Cheio de sangue em volta de sua boca e corpo.
+
+	CACHORRO:
+		- Vida: 120
+		- Destreza: 14
+		- Força: 10
+		- Lutar: 15
+		- Parkour: 12
+		- Encontrar: 12 (se os dois passar, ganha vantagem no encontrar)
+		- Dano: 2d20
+
+ - Se não:
+	Você ganha uma roupa de caça melhor, ela começa a sair de seu próprio corpo, você começa a sentir uma baita dor, só que essa dor te aparenta ser mais mental do que física, metade da sua sanidade atual é drenada.
+Você ganha mais 1 de atributo em duas dessas opções (lutar, força, destreza, parkour, encontrar).
+	Você ganha também um arco que meio que sai da sua mão também, se formando através do sangue de seus pulsos, você perde metade da sua vida atual. Você ganha um arco com 2d20 + 2d12 + 1d8 + dano da flecha. Porém extremo é metade do dano máximo.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA HEFESTO:
+
+ - Se sim:
+	Cada produção de itens é dobrada. Ex: se fizer uma cura ganhará duas, se fizer uma munição ganhará duas.
+
+ - Se não:
+	Por 10 de sanidade, 5 se passar no teste, você aponta para um inimigo e ele começa a queimar por dentro. Toma 1d8 contínuo até o fim da cena.
+	Dá para usar no mesmo 5 vezes. 1ª 1d8, 2ª 1d12, 3ª1d20, 4ª 1d20 + 1d8, 5ª 1d20 + 1d12.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA AFRODITE:
+
+ - Se sim:
+	Você consegue deixar um monstro com consciência com desvantagem por 1d8 + 2 turnos. Porém só pode ser usado 1 vez na cena, e tem que ser a primeira ação sua no começo da cena.
+
+ - Se não:
+	Por 5 de sanidade, se passar 2, você consegue dar vantagens em atributos (se tiver): inteligência, encontrar, pesquisa, usar bibliotecas.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA HERMES:
+
+ - Se sim:
+	Se tiver ninja +1 em um desses: esquiva, furtividade, destreza, fuga, parkour.
+	Você ganha 70.000 moedas.
+
+ - Se não:
+	Vocês se ligam mentalmente como mensagens, por 10 de sanidade de cada um vocês conseguem fazer uma comunicação por 1 minuto e meio a distância.
+
+--------------------------------------------------------------------------------
+
+ESCOLHA DIONÍSIO:
+
+ - Se sim:
+	Mais 5 pontos de sanidade.
+
+ - Se não:
+	Se você chegar na insanidade, você recupera 50 de sanidade automaticamente.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+DEPOIS DO LIVRO:
+
+Você vê uma menina com um vestido azul, cabelos pretos bem lisos e longos, olhos completamente pretos. Estatura média, bem magra, extremamente pálida.
+
+Ela aparece e tem como se fosse um injetor com um líquido vermelho, parece sangue.
+
+Ela diz: Adoro essa criação deles *risadas*
+
+Ela injeta isso no seu pescoço enquanto você está completamente paralisada e simplesmente se torna algo parecido com diversos morcegos e sai voando.
+
+Vocês apenas escutam ecoando: "Vocês vão adorar a mamãe *risadas*"
+
+Depois disso começa a sair meio que umas veias saltadas de seu pescoço onde foi injetado, essas veias são completamente vermelhas.
+
+--------------------------------------------------------------------------------
